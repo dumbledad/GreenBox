@@ -45108,7 +45108,7 @@ IL_0042:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		TypeU5BU5D_t1664964607* L_11 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_2();
+		TypeU5BU5D_t1664964607* L_11 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_3();
 		G_B9_0 = L_11;
 		goto IL_0058;
 	}
@@ -45507,7 +45507,7 @@ IL_006d:
 		Type_t * L_17 = ___type0;
 		int32_t L_18 = V_2;
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		TypeU5BU5D_t1664964607* L_19 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_2();
+		TypeU5BU5D_t1664964607* L_19 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_3();
 		NullCheck(L_17);
 		ConstructorInfo_t2851816542 * L_20 = Type_GetConstructor_m835344477(L_17, L_18, (Binder_t3404612058 *)NULL, 3, L_19, (ParameterModifierU5BU5D_t963192633*)(ParameterModifierU5BU5D_t963192633*)NULL, /*hidden argument*/NULL);
 		V_0 = L_20;

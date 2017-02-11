@@ -4966,7 +4966,7 @@ IL_0072:
 		IL2CPP_RUNTIME_CLASS_INIT(RemotingServices_t2399536837_il2cpp_TypeInfo_var);
 		int32_t L_26 = ((RemotingServices_t2399536837_StaticFields*)RemotingServices_t2399536837_il2cpp_TypeInfo_var->static_fields)->get_methodBindings_5();
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		TypeU5BU5D_t1664964607* L_27 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_2();
+		TypeU5BU5D_t1664964607* L_27 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_3();
 		NullCheck(L_25);
 		ConstructorInfo_t2851816542 * L_28 = Type_GetConstructor_m663514781(L_25, L_26, (Binder_t3404612058 *)NULL, L_27, (ParameterModifierU5BU5D_t963192633*)(ParameterModifierU5BU5D_t963192633*)NULL, /*hidden argument*/NULL);
 		return L_28;

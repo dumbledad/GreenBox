@@ -9318,7 +9318,7 @@ extern "C"  void Char__cctor_m1761604920 (Il2CppObject * __this /* static, unuse
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		Char_GetDataTablePointers_m3052092189(NULL /*static, unused*/, (((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_address_of_category_data_1()), (((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_address_of_numeric_data_2()), (((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_address_of_numeric_data_values_3()), (((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_address_of_to_lower_data_low_4()), (((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_address_of_to_lower_data_high_5()), (((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_address_of_to_upper_data_low_6()), (((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_address_of_to_upper_data_high_7()), /*hidden argument*/NULL);
+		Char_GetDataTablePointers_m3052092189(NULL /*static, unused*/, (((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_address_of_category_data_3()), (((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_address_of_numeric_data_4()), (((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_address_of_numeric_data_values_5()), (((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_address_of_to_lower_data_low_6()), (((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_address_of_to_lower_data_high_7()), (((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_address_of_to_upper_data_low_8()), (((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_address_of_to_upper_data_high_9()), /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -9853,7 +9853,7 @@ extern "C"  int32_t Char_GetUnicodeCategory_m4273361321 (Il2CppObject * __this /
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Char_t3454481338_il2cpp_TypeInfo_var);
-		uint8_t* L_0 = ((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_category_data_1();
+		uint8_t* L_0 = ((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_category_data_3();
 		Il2CppChar L_1 = ___c0;
 		return (int32_t)((*((uint8_t*)((uint8_t*)((intptr_t)L_0+(int32_t)L_1)))));
 	}
@@ -9871,7 +9871,7 @@ extern "C"  bool Char_IsDigit_m751559221 (Il2CppObject * __this /* static, unuse
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Char_t3454481338_il2cpp_TypeInfo_var);
-		uint8_t* L_0 = ((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_category_data_1();
+		uint8_t* L_0 = ((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_category_data_3();
 		Il2CppChar L_1 = ___c0;
 		return (bool)((((int32_t)(*((uint8_t*)((uint8_t*)((intptr_t)L_0+(int32_t)L_1))))) == ((int32_t)8))? 1 : 0);
 	}
@@ -9889,7 +9889,7 @@ extern "C"  bool Char_IsLetter_m562021054 (Il2CppObject * __this /* static, unus
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Char_t3454481338_il2cpp_TypeInfo_var);
-		uint8_t* L_0 = ((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_category_data_1();
+		uint8_t* L_0 = ((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_category_data_3();
 		Il2CppChar L_1 = ___c0;
 		return (bool)((((int32_t)((((int32_t)(*((uint8_t*)((uint8_t*)((intptr_t)L_0+(int32_t)L_1))))) > ((int32_t)4))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
@@ -9909,7 +9909,7 @@ extern "C"  bool Char_IsLetterOrDigit_m2164758816 (Il2CppObject * __this /* stat
 	int32_t G_B3_0 = 0;
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Char_t3454481338_il2cpp_TypeInfo_var);
-		uint8_t* L_0 = ((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_category_data_1();
+		uint8_t* L_0 = ((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_category_data_3();
 		Il2CppChar L_1 = ___c0;
 		V_0 = (*((uint8_t*)((uint8_t*)((intptr_t)L_0+(int32_t)L_1))));
 		int32_t L_2 = V_0;
@@ -9947,7 +9947,7 @@ extern "C"  bool Char_IsLower_m569373973 (Il2CppObject * __this /* static, unuse
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Char_t3454481338_il2cpp_TypeInfo_var);
-		uint8_t* L_0 = ((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_category_data_1();
+		uint8_t* L_0 = ((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_category_data_3();
 		Il2CppChar L_1 = ___c0;
 		return (bool)((((int32_t)(*((uint8_t*)((uint8_t*)((intptr_t)L_0+(int32_t)L_1))))) == ((int32_t)1))? 1 : 0);
 	}
@@ -9965,7 +9965,7 @@ extern "C"  bool Char_IsSurrogate_m2088974128 (Il2CppObject * __this /* static, 
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Char_t3454481338_il2cpp_TypeInfo_var);
-		uint8_t* L_0 = ((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_category_data_1();
+		uint8_t* L_0 = ((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_category_data_3();
 		Il2CppChar L_1 = ___c0;
 		return (bool)((((int32_t)(*((uint8_t*)((uint8_t*)((intptr_t)L_0+(int32_t)L_1))))) == ((int32_t)((int32_t)16)))? 1 : 0);
 	}
@@ -9985,7 +9985,7 @@ extern "C"  bool Char_IsWhiteSpace_m1507160293 (Il2CppObject * __this /* static,
 	int32_t G_B9_0 = 0;
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Char_t3454481338_il2cpp_TypeInfo_var);
-		uint8_t* L_0 = ((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_category_data_1();
+		uint8_t* L_0 = ((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_category_data_3();
 		Il2CppChar L_1 = ___c0;
 		V_0 = (*((uint8_t*)((uint8_t*)((intptr_t)L_0+(int32_t)L_1))));
 		int32_t L_2 = V_0;
@@ -10227,7 +10227,7 @@ extern "C"  Il2CppChar Char_ToLowerInvariant_m2418373518 (Il2CppObject * __this 
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Char_t3454481338_il2cpp_TypeInfo_var);
-		uint16_t* L_1 = ((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_to_lower_data_low_4();
+		uint16_t* L_1 = ((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_to_lower_data_low_6();
 		Il2CppChar L_2 = ___c0;
 		return (*((uint16_t*)((uint16_t*)((intptr_t)L_1+(int32_t)((int32_t)((int32_t)L_2*(int32_t)2))))));
 	}
@@ -10242,7 +10242,7 @@ IL_0016:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Char_t3454481338_il2cpp_TypeInfo_var);
-		uint16_t* L_4 = ((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_to_lower_data_high_5();
+		uint16_t* L_4 = ((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_to_lower_data_high_7();
 		Il2CppChar L_5 = ___c0;
 		return (*((uint16_t*)((uint16_t*)((intptr_t)L_4+(int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_5-(int32_t)((int32_t)65313)))*(int32_t)2))))));
 	}
@@ -10349,7 +10349,7 @@ extern "C"  Il2CppChar Char_ToUpperInvariant_m3983736813 (Il2CppObject * __this 
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Char_t3454481338_il2cpp_TypeInfo_var);
-		uint16_t* L_1 = ((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_to_upper_data_low_6();
+		uint16_t* L_1 = ((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_to_upper_data_low_8();
 		Il2CppChar L_2 = ___c0;
 		return (*((uint16_t*)((uint16_t*)((intptr_t)L_1+(int32_t)((int32_t)((int32_t)L_2*(int32_t)2))))));
 	}
@@ -10364,7 +10364,7 @@ IL_0016:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Char_t3454481338_il2cpp_TypeInfo_var);
-		uint16_t* L_4 = ((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_to_upper_data_high_7();
+		uint16_t* L_4 = ((Char_t3454481338_StaticFields*)Char_t3454481338_il2cpp_TypeInfo_var->static_fields)->get_to_upper_data_high_9();
 		Il2CppChar L_5 = ___c0;
 		return (*((uint16_t*)((uint16_t*)((intptr_t)L_4+(int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_5-(int32_t)((int32_t)65313)))*(int32_t)2))))));
 	}

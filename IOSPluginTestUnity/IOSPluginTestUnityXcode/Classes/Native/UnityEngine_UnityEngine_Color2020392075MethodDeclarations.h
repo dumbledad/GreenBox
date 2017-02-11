@@ -36,5 +36,7 @@ extern "C"  Color_t2020392075  Color_get_red_m2410286591 (Il2CppObject * __this 
 extern "C"  Color_t2020392075  Color_get_green_m2671273823 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color UnityEngine.Color::get_black()
 extern "C"  Color_t2020392075  Color_get_black_m2650940523 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Color UnityEngine.Color::get_magenta()
+extern "C"  Color_t2020392075  Color_get_magenta_m3193089961 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector4 UnityEngine.Color::op_Implicit(UnityEngine.Color)
 extern "C"  Vector4_t2243707581  Color_op_Implicit_m1067945802 (Il2CppObject * __this /* static, unused */, Color_t2020392075  ___c0, const MethodInfo* method) IL2CPP_METHOD_ATTR;

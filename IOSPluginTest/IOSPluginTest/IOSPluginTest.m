@@ -15,3 +15,10 @@
 int square(int x) {
     return x * x;
 }
+
+void setCubeCallback(int x, CALCULATION_CALLBACK callback) {
+    int result = x * x * x;
+    if (callback != nil) {
+        callback(result);
+    }
+}

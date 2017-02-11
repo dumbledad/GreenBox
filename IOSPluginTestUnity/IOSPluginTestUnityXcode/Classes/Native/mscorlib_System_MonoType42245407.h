@@ -26,16 +26,16 @@ struct  MonoType_t  : public Type_t
 {
 public:
 	// System.MonoTypeInfo System.MonoType::type_info
-	MonoTypeInfo_t1976057079 * ___type_info_7;
+	MonoTypeInfo_t1976057079 * ___type_info_8;
 
 public:
-	inline static int32_t get_offset_of_type_info_7() { return static_cast<int32_t>(offsetof(MonoType_t, ___type_info_7)); }
-	inline MonoTypeInfo_t1976057079 * get_type_info_7() const { return ___type_info_7; }
-	inline MonoTypeInfo_t1976057079 ** get_address_of_type_info_7() { return &___type_info_7; }
-	inline void set_type_info_7(MonoTypeInfo_t1976057079 * value)
+	inline static int32_t get_offset_of_type_info_8() { return static_cast<int32_t>(offsetof(MonoType_t, ___type_info_8)); }
+	inline MonoTypeInfo_t1976057079 * get_type_info_8() const { return ___type_info_8; }
+	inline MonoTypeInfo_t1976057079 ** get_address_of_type_info_8() { return &___type_info_8; }
+	inline void set_type_info_8(MonoTypeInfo_t1976057079 * value)
 	{
-		___type_info_7 = value;
-		Il2CppCodeGenWriteBarrier(&___type_info_7, value);
+		___type_info_8 = value;
+		Il2CppCodeGenWriteBarrier(&___type_info_8, value);
 	}
 };
 

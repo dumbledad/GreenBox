@@ -19,6 +19,7 @@
 
 
 extern const Il2CppMethodPointer g_MethodPointers[];
+extern const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[];
 extern const Il2CppMethodPointer g_DelegateWrappersManagedToNative[];
 extern const Il2CppMarshalingFunctions g_MarshalingFunctions[];
 extern const Il2CppMethodPointer g_CcwMarshalingFunctions[];
@@ -28,11 +29,11 @@ extern const CustomAttributesCacheGenerator g_AttributeGenerators[];
 extern const Il2CppMethodPointer g_UnresolvedVirtualMethodPointers[];
 const Il2CppCodeRegistration g_CodeRegistration = 
 {
-	8007,
+	8016,
 	g_MethodPointers,
-	0,
-	NULL,
-	15,
+	1,
+	g_ReversePInvokeWrapperPointers,
+	16,
 	g_DelegateWrappersManagedToNative,
 	49,
 	g_MarshalingFunctions,
@@ -42,7 +43,7 @@ const Il2CppCodeRegistration g_CodeRegistration =
 	g_Il2CppGenericMethodPointers,
 	1098,
 	g_Il2CppInvokerPointers,
-	1418,
+	1421,
 	g_AttributeGenerators,
 	0,
 	NULL,

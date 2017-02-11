@@ -21,6 +21,9 @@ extern "C" {
     
     int square(int x);
     
+    typedef void (*CALCULATION_CALLBACK)(int x);
+    void setCubeCallback(int x, CALCULATION_CALLBACK callback);
+    
 #ifdef __cplusplus
 }
 #endif
