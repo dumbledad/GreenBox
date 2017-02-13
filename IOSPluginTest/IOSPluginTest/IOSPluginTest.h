@@ -10,8 +10,7 @@
 
 @interface IOSPluginTest : NSObject
 
-    //typedef void (*MATTFOUND)(char * name);
-    //bool findMats(MATTFOUND callback);
+-(int)squareThisNumber:(int)number;
 
 @end
 

@@ -35577,7 +35577,7 @@ extern "C"  ConstructorInfo_t2851816542 * MonoType_GetDefaultConstructor_m925465
 	ConstructorInfo_t2851816542 * V_2 = NULL;
 	{
 		V_0 = (ConstructorInfo_t2851816542 *)NULL;
-		MonoTypeInfo_t1976057079 * L_0 = __this->get_type_info_8();
+		MonoTypeInfo_t1976057079 * L_0 = __this->get_type_info_7();
 		if (L_0)
 		{
 			goto IL_0018;
@@ -35586,12 +35586,12 @@ extern "C"  ConstructorInfo_t2851816542 * MonoType_GetDefaultConstructor_m925465
 	{
 		MonoTypeInfo_t1976057079 * L_1 = (MonoTypeInfo_t1976057079 *)il2cpp_codegen_object_new(MonoTypeInfo_t1976057079_il2cpp_TypeInfo_var);
 		MonoTypeInfo__ctor_m1398838196(L_1, /*hidden argument*/NULL);
-		__this->set_type_info_8(L_1);
+		__this->set_type_info_7(L_1);
 	}
 
 IL_0018:
 	{
-		MonoTypeInfo_t1976057079 * L_2 = __this->get_type_info_8();
+		MonoTypeInfo_t1976057079 * L_2 = __this->get_type_info_7();
 		NullCheck(L_2);
 		ConstructorInfo_t2851816542 * L_3 = L_2->get_default_ctor_1();
 		ConstructorInfo_t2851816542 * L_4 = L_3;
@@ -35602,9 +35602,9 @@ IL_0018:
 		}
 	}
 	{
-		MonoTypeInfo_t1976057079 * L_5 = __this->get_type_info_8();
+		MonoTypeInfo_t1976057079 * L_5 = __this->get_type_info_7();
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		TypeU5BU5D_t1664964607* L_6 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_3();
+		TypeU5BU5D_t1664964607* L_6 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_2();
 		ConstructorInfo_t2851816542 * L_7 = Type_GetConstructor_m835344477(__this, ((int32_t)52), (Binder_t3404612058 *)NULL, 3, L_6, (ParameterModifierU5BU5D_t963192633*)(ParameterModifierU5BU5D_t963192633*)NULL, /*hidden argument*/NULL);
 		ConstructorInfo_t2851816542 * L_8 = L_7;
 		V_2 = L_8;
@@ -37662,7 +37662,7 @@ extern "C"  String_t* MonoType_get_FullName_m4049129774 (MonoType_t * __this, co
 	String_t* V_0 = NULL;
 	String_t* V_1 = NULL;
 	{
-		MonoTypeInfo_t1976057079 * L_0 = __this->get_type_info_8();
+		MonoTypeInfo_t1976057079 * L_0 = __this->get_type_info_7();
 		if (L_0)
 		{
 			goto IL_0016;
@@ -37671,12 +37671,12 @@ extern "C"  String_t* MonoType_get_FullName_m4049129774 (MonoType_t * __this, co
 	{
 		MonoTypeInfo_t1976057079 * L_1 = (MonoTypeInfo_t1976057079 *)il2cpp_codegen_object_new(MonoTypeInfo_t1976057079_il2cpp_TypeInfo_var);
 		MonoTypeInfo__ctor_m1398838196(L_1, /*hidden argument*/NULL);
-		__this->set_type_info_8(L_1);
+		__this->set_type_info_7(L_1);
 	}
 
 IL_0016:
 	{
-		MonoTypeInfo_t1976057079 * L_2 = __this->get_type_info_8();
+		MonoTypeInfo_t1976057079 * L_2 = __this->get_type_info_7();
 		NullCheck(L_2);
 		String_t* L_3 = L_2->get_full_name_0();
 		String_t* L_4 = L_3;
@@ -37687,7 +37687,7 @@ IL_0016:
 		}
 	}
 	{
-		MonoTypeInfo_t1976057079 * L_5 = __this->get_type_info_8();
+		MonoTypeInfo_t1976057079 * L_5 = __this->get_type_info_7();
 		String_t* L_6 = MonoType_getFullName_m1434947639(__this, (bool)1, (bool)0, /*hidden argument*/NULL);
 		String_t* L_7 = L_6;
 		V_1 = L_7;
@@ -37841,7 +37841,7 @@ extern "C"  Type_t * MonoType_get_ReflectedType_m2981714783 (MonoType_t * __this
 extern "C"  RuntimeTypeHandle_t2330101084  MonoType_get_TypeHandle_m3750614457 (MonoType_t * __this, const MethodInfo* method)
 {
 	{
-		RuntimeTypeHandle_t2330101084  L_0 = ((Type_t *)__this)->get__impl_1();
+		RuntimeTypeHandle_t2330101084  L_0 = ((Type_t *)__this)->get__impl_0();
 		return L_0;
 	}
 }

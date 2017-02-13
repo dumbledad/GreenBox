@@ -2834,7 +2834,7 @@ extern "C"  MethodBase_t904190842 * Default_BindToMethod_m1132635736 (Default_t3
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		TypeU5BU5D_t1664964607* L_1 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_3();
+		TypeU5BU5D_t1664964607* L_1 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_2();
 		V_0 = L_1;
 		goto IL_0046;
 	}
@@ -7732,7 +7732,7 @@ IL_00db:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		TypeU5BU5D_t1664964607* L_41 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_3();
+		TypeU5BU5D_t1664964607* L_41 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_2();
 		G_B17_0 = L_41;
 		goto IL_00ec;
 	}
@@ -8508,7 +8508,7 @@ extern "C"  Exception_t1927440687 * ConstructorBuilder_not_created_m2150488017 (
 extern "C"  Assembly_t4268412390 * EnumBuilder_get_Assembly_m4285228003 (EnumBuilder_t2808714468 * __this, const MethodInfo* method)
 {
 	{
-		TypeBuilder_t3308873219 * L_0 = __this->get__tb_8();
+		TypeBuilder_t3308873219 * L_0 = __this->get__tb_7();
 		NullCheck(L_0);
 		Assembly_t4268412390 * L_1 = TypeBuilder_get_Assembly_m492491492(L_0, /*hidden argument*/NULL);
 		return L_1;
@@ -8518,7 +8518,7 @@ extern "C"  Assembly_t4268412390 * EnumBuilder_get_Assembly_m4285228003 (EnumBui
 extern "C"  String_t* EnumBuilder_get_AssemblyQualifiedName_m3662466844 (EnumBuilder_t2808714468 * __this, const MethodInfo* method)
 {
 	{
-		TypeBuilder_t3308873219 * L_0 = __this->get__tb_8();
+		TypeBuilder_t3308873219 * L_0 = __this->get__tb_7();
 		NullCheck(L_0);
 		String_t* L_1 = TypeBuilder_get_AssemblyQualifiedName_m2097258567(L_0, /*hidden argument*/NULL);
 		return L_1;
@@ -8528,7 +8528,7 @@ extern "C"  String_t* EnumBuilder_get_AssemblyQualifiedName_m3662466844 (EnumBui
 extern "C"  Type_t * EnumBuilder_get_BaseType_m63295819 (EnumBuilder_t2808714468 * __this, const MethodInfo* method)
 {
 	{
-		TypeBuilder_t3308873219 * L_0 = __this->get__tb_8();
+		TypeBuilder_t3308873219 * L_0 = __this->get__tb_7();
 		NullCheck(L_0);
 		Type_t * L_1 = TypeBuilder_get_BaseType_m4088672180(L_0, /*hidden argument*/NULL);
 		return L_1;
@@ -8538,7 +8538,7 @@ extern "C"  Type_t * EnumBuilder_get_BaseType_m63295819 (EnumBuilder_t2808714468
 extern "C"  Type_t * EnumBuilder_get_DeclaringType_m1949466083 (EnumBuilder_t2808714468 * __this, const MethodInfo* method)
 {
 	{
-		TypeBuilder_t3308873219 * L_0 = __this->get__tb_8();
+		TypeBuilder_t3308873219 * L_0 = __this->get__tb_7();
 		NullCheck(L_0);
 		Type_t * L_1 = TypeBuilder_get_DeclaringType_m3236598700(L_0, /*hidden argument*/NULL);
 		return L_1;
@@ -8548,7 +8548,7 @@ extern "C"  Type_t * EnumBuilder_get_DeclaringType_m1949466083 (EnumBuilder_t280
 extern "C"  String_t* EnumBuilder_get_FullName_m2818393911 (EnumBuilder_t2808714468 * __this, const MethodInfo* method)
 {
 	{
-		TypeBuilder_t3308873219 * L_0 = __this->get__tb_8();
+		TypeBuilder_t3308873219 * L_0 = __this->get__tb_7();
 		NullCheck(L_0);
 		String_t* L_1 = TypeBuilder_get_FullName_m1626507516(L_0, /*hidden argument*/NULL);
 		return L_1;
@@ -8558,7 +8558,7 @@ extern "C"  String_t* EnumBuilder_get_FullName_m2818393911 (EnumBuilder_t2808714
 extern "C"  Module_t4282841206 * EnumBuilder_get_Module_m431986379 (EnumBuilder_t2808714468 * __this, const MethodInfo* method)
 {
 	{
-		TypeBuilder_t3308873219 * L_0 = __this->get__tb_8();
+		TypeBuilder_t3308873219 * L_0 = __this->get__tb_7();
 		NullCheck(L_0);
 		Module_t4282841206 * L_1 = TypeBuilder_get_Module_m1668298460(L_0, /*hidden argument*/NULL);
 		return L_1;
@@ -8568,7 +8568,7 @@ extern "C"  Module_t4282841206 * EnumBuilder_get_Module_m431986379 (EnumBuilder_
 extern "C"  String_t* EnumBuilder_get_Name_m2088160658 (EnumBuilder_t2808714468 * __this, const MethodInfo* method)
 {
 	{
-		TypeBuilder_t3308873219 * L_0 = __this->get__tb_8();
+		TypeBuilder_t3308873219 * L_0 = __this->get__tb_7();
 		NullCheck(L_0);
 		String_t* L_1 = TypeBuilder_get_Name_m170882803(L_0, /*hidden argument*/NULL);
 		return L_1;
@@ -8578,7 +8578,7 @@ extern "C"  String_t* EnumBuilder_get_Name_m2088160658 (EnumBuilder_t2808714468 
 extern "C"  String_t* EnumBuilder_get_Namespace_m3109232562 (EnumBuilder_t2808714468 * __this, const MethodInfo* method)
 {
 	{
-		TypeBuilder_t3308873219 * L_0 = __this->get__tb_8();
+		TypeBuilder_t3308873219 * L_0 = __this->get__tb_7();
 		NullCheck(L_0);
 		String_t* L_1 = TypeBuilder_get_Namespace_m3562783599(L_0, /*hidden argument*/NULL);
 		return L_1;
@@ -8588,7 +8588,7 @@ extern "C"  String_t* EnumBuilder_get_Namespace_m3109232562 (EnumBuilder_t280871
 extern "C"  Type_t * EnumBuilder_get_ReflectedType_m2679108928 (EnumBuilder_t2808714468 * __this, const MethodInfo* method)
 {
 	{
-		TypeBuilder_t3308873219 * L_0 = __this->get__tb_8();
+		TypeBuilder_t3308873219 * L_0 = __this->get__tb_7();
 		NullCheck(L_0);
 		Type_t * L_1 = TypeBuilder_get_ReflectedType_m2504081059(L_0, /*hidden argument*/NULL);
 		return L_1;
@@ -8598,7 +8598,7 @@ extern "C"  Type_t * EnumBuilder_get_ReflectedType_m2679108928 (EnumBuilder_t280
 extern "C"  RuntimeTypeHandle_t2330101084  EnumBuilder_get_TypeHandle_m724362740 (EnumBuilder_t2808714468 * __this, const MethodInfo* method)
 {
 	{
-		TypeBuilder_t3308873219 * L_0 = __this->get__tb_8();
+		TypeBuilder_t3308873219 * L_0 = __this->get__tb_7();
 		NullCheck(L_0);
 		RuntimeTypeHandle_t2330101084  L_1 = TypeBuilder_get_TypeHandle_m922348781(L_0, /*hidden argument*/NULL);
 		return L_1;
@@ -8608,7 +8608,7 @@ extern "C"  RuntimeTypeHandle_t2330101084  EnumBuilder_get_TypeHandle_m724362740
 extern "C"  Type_t * EnumBuilder_get_UnderlyingSystemType_m1699680520 (EnumBuilder_t2808714468 * __this, const MethodInfo* method)
 {
 	{
-		Type_t * L_0 = __this->get__underlyingType_9();
+		Type_t * L_0 = __this->get__underlyingType_8();
 		return L_0;
 	}
 }
@@ -8616,9 +8616,9 @@ extern "C"  Type_t * EnumBuilder_get_UnderlyingSystemType_m1699680520 (EnumBuild
 extern "C"  int32_t EnumBuilder_GetAttributeFlagsImpl_m4263246832 (EnumBuilder_t2808714468 * __this, const MethodInfo* method)
 {
 	{
-		TypeBuilder_t3308873219 * L_0 = __this->get__tb_8();
+		TypeBuilder_t3308873219 * L_0 = __this->get__tb_7();
 		NullCheck(L_0);
-		int32_t L_1 = L_0->get_attrs_17();
+		int32_t L_1 = L_0->get_attrs_16();
 		return L_1;
 	}
 }
@@ -8626,7 +8626,7 @@ extern "C"  int32_t EnumBuilder_GetAttributeFlagsImpl_m4263246832 (EnumBuilder_t
 extern "C"  ConstructorInfo_t2851816542 * EnumBuilder_GetConstructorImpl_m331611313 (EnumBuilder_t2808714468 * __this, int32_t ___bindingAttr0, Binder_t3404612058 * ___binder1, int32_t ___callConvention2, TypeU5BU5D_t1664964607* ___types3, ParameterModifierU5BU5D_t963192633* ___modifiers4, const MethodInfo* method)
 {
 	{
-		TypeBuilder_t3308873219 * L_0 = __this->get__tb_8();
+		TypeBuilder_t3308873219 * L_0 = __this->get__tb_7();
 		int32_t L_1 = ___bindingAttr0;
 		Binder_t3404612058 * L_2 = ___binder1;
 		int32_t L_3 = ___callConvention2;
@@ -8641,7 +8641,7 @@ extern "C"  ConstructorInfo_t2851816542 * EnumBuilder_GetConstructorImpl_m331611
 extern "C"  ConstructorInfoU5BU5D_t1996683371* EnumBuilder_GetConstructors_m3240699827 (EnumBuilder_t2808714468 * __this, int32_t ___bindingAttr0, const MethodInfo* method)
 {
 	{
-		TypeBuilder_t3308873219 * L_0 = __this->get__tb_8();
+		TypeBuilder_t3308873219 * L_0 = __this->get__tb_7();
 		int32_t L_1 = ___bindingAttr0;
 		NullCheck(L_0);
 		ConstructorInfoU5BU5D_t1996683371* L_2 = TypeBuilder_GetConstructors_m774120094(L_0, L_1, /*hidden argument*/NULL);
@@ -8652,7 +8652,7 @@ extern "C"  ConstructorInfoU5BU5D_t1996683371* EnumBuilder_GetConstructors_m3240
 extern "C"  ObjectU5BU5D_t3614634134* EnumBuilder_GetCustomAttributes_m432109445 (EnumBuilder_t2808714468 * __this, bool ___inherit0, const MethodInfo* method)
 {
 	{
-		TypeBuilder_t3308873219 * L_0 = __this->get__tb_8();
+		TypeBuilder_t3308873219 * L_0 = __this->get__tb_7();
 		bool L_1 = ___inherit0;
 		NullCheck(L_0);
 		ObjectU5BU5D_t3614634134* L_2 = TypeBuilder_GetCustomAttributes_m1637538574(L_0, L_1, /*hidden argument*/NULL);
@@ -8663,7 +8663,7 @@ extern "C"  ObjectU5BU5D_t3614634134* EnumBuilder_GetCustomAttributes_m432109445
 extern "C"  ObjectU5BU5D_t3614634134* EnumBuilder_GetCustomAttributes_m2001415610 (EnumBuilder_t2808714468 * __this, Type_t * ___attributeType0, bool ___inherit1, const MethodInfo* method)
 {
 	{
-		TypeBuilder_t3308873219 * L_0 = __this->get__tb_8();
+		TypeBuilder_t3308873219 * L_0 = __this->get__tb_7();
 		Type_t * L_1 = ___attributeType0;
 		bool L_2 = ___inherit1;
 		NullCheck(L_0);
@@ -8675,7 +8675,7 @@ extern "C"  ObjectU5BU5D_t3614634134* EnumBuilder_GetCustomAttributes_m200141561
 extern "C"  Type_t * EnumBuilder_GetElementType_m1228393631 (EnumBuilder_t2808714468 * __this, const MethodInfo* method)
 {
 	{
-		TypeBuilder_t3308873219 * L_0 = __this->get__tb_8();
+		TypeBuilder_t3308873219 * L_0 = __this->get__tb_7();
 		NullCheck(L_0);
 		Type_t * L_1 = TypeBuilder_GetElementType_m3707448372(L_0, /*hidden argument*/NULL);
 		return L_1;
@@ -8685,7 +8685,7 @@ extern "C"  Type_t * EnumBuilder_GetElementType_m1228393631 (EnumBuilder_t280871
 extern "C"  EventInfo_t * EnumBuilder_GetEvent_m3989421960 (EnumBuilder_t2808714468 * __this, String_t* ___name0, int32_t ___bindingAttr1, const MethodInfo* method)
 {
 	{
-		TypeBuilder_t3308873219 * L_0 = __this->get__tb_8();
+		TypeBuilder_t3308873219 * L_0 = __this->get__tb_7();
 		String_t* L_1 = ___name0;
 		int32_t L_2 = ___bindingAttr1;
 		NullCheck(L_0);
@@ -8697,7 +8697,7 @@ extern "C"  EventInfo_t * EnumBuilder_GetEvent_m3989421960 (EnumBuilder_t2808714
 extern "C"  FieldInfo_t * EnumBuilder_GetField_m1324325036 (EnumBuilder_t2808714468 * __this, String_t* ___name0, int32_t ___bindingAttr1, const MethodInfo* method)
 {
 	{
-		TypeBuilder_t3308873219 * L_0 = __this->get__tb_8();
+		TypeBuilder_t3308873219 * L_0 = __this->get__tb_7();
 		String_t* L_1 = ___name0;
 		int32_t L_2 = ___bindingAttr1;
 		NullCheck(L_0);
@@ -8709,7 +8709,7 @@ extern "C"  FieldInfo_t * EnumBuilder_GetField_m1324325036 (EnumBuilder_t2808714
 extern "C"  FieldInfoU5BU5D_t125053523* EnumBuilder_GetFields_m2003258635 (EnumBuilder_t2808714468 * __this, int32_t ___bindingAttr0, const MethodInfo* method)
 {
 	{
-		TypeBuilder_t3308873219 * L_0 = __this->get__tb_8();
+		TypeBuilder_t3308873219 * L_0 = __this->get__tb_7();
 		int32_t L_1 = ___bindingAttr0;
 		NullCheck(L_0);
 		FieldInfoU5BU5D_t125053523* L_2 = TypeBuilder_GetFields_m3875401338(L_0, L_1, /*hidden argument*/NULL);
@@ -8720,7 +8720,7 @@ extern "C"  FieldInfoU5BU5D_t125053523* EnumBuilder_GetFields_m2003258635 (EnumB
 extern "C"  TypeU5BU5D_t1664964607* EnumBuilder_GetInterfaces_m198423261 (EnumBuilder_t2808714468 * __this, const MethodInfo* method)
 {
 	{
-		TypeBuilder_t3308873219 * L_0 = __this->get__tb_8();
+		TypeBuilder_t3308873219 * L_0 = __this->get__tb_7();
 		NullCheck(L_0);
 		TypeU5BU5D_t1664964607* L_1 = TypeBuilder_GetInterfaces_m1818658502(L_0, /*hidden argument*/NULL);
 		return L_1;
@@ -8737,7 +8737,7 @@ extern "C"  MethodInfo_t * EnumBuilder_GetMethodImpl_m2091516387 (EnumBuilder_t2
 		}
 	}
 	{
-		TypeBuilder_t3308873219 * L_1 = __this->get__tb_8();
+		TypeBuilder_t3308873219 * L_1 = __this->get__tb_7();
 		String_t* L_2 = ___name0;
 		int32_t L_3 = ___bindingAttr1;
 		NullCheck(L_1);
@@ -8747,7 +8747,7 @@ extern "C"  MethodInfo_t * EnumBuilder_GetMethodImpl_m2091516387 (EnumBuilder_t2
 
 IL_0015:
 	{
-		TypeBuilder_t3308873219 * L_5 = __this->get__tb_8();
+		TypeBuilder_t3308873219 * L_5 = __this->get__tb_7();
 		String_t* L_6 = ___name0;
 		int32_t L_7 = ___bindingAttr1;
 		Binder_t3404612058 * L_8 = ___binder2;
@@ -8763,7 +8763,7 @@ IL_0015:
 extern "C"  MethodInfoU5BU5D_t152480188* EnumBuilder_GetMethods_m342174319 (EnumBuilder_t2808714468 * __this, int32_t ___bindingAttr0, const MethodInfo* method)
 {
 	{
-		TypeBuilder_t3308873219 * L_0 = __this->get__tb_8();
+		TypeBuilder_t3308873219 * L_0 = __this->get__tb_7();
 		int32_t L_1 = ___bindingAttr0;
 		NullCheck(L_0);
 		MethodInfoU5BU5D_t152480188* L_2 = TypeBuilder_GetMethods_m4196862738(L_0, L_1, /*hidden argument*/NULL);
@@ -8782,7 +8782,7 @@ extern "C"  PropertyInfo_t * EnumBuilder_GetPropertyImpl_m2717304076 (EnumBuilde
 extern "C"  bool EnumBuilder_HasElementTypeImpl_m1414733955 (EnumBuilder_t2808714468 * __this, const MethodInfo* method)
 {
 	{
-		TypeBuilder_t3308873219 * L_0 = __this->get__tb_8();
+		TypeBuilder_t3308873219 * L_0 = __this->get__tb_7();
 		NullCheck(L_0);
 		bool L_1 = Type_get_HasElementType_m3319917896(L_0, /*hidden argument*/NULL);
 		return L_1;
@@ -8792,7 +8792,7 @@ extern "C"  bool EnumBuilder_HasElementTypeImpl_m1414733955 (EnumBuilder_t280871
 extern "C"  Il2CppObject * EnumBuilder_InvokeMember_m633176706 (EnumBuilder_t2808714468 * __this, String_t* ___name0, int32_t ___invokeAttr1, Binder_t3404612058 * ___binder2, Il2CppObject * ___target3, ObjectU5BU5D_t3614634134* ___args4, ParameterModifierU5BU5D_t963192633* ___modifiers5, CultureInfo_t3500843524 * ___culture6, StringU5BU5D_t1642385972* ___namedParameters7, const MethodInfo* method)
 {
 	{
-		TypeBuilder_t3308873219 * L_0 = __this->get__tb_8();
+		TypeBuilder_t3308873219 * L_0 = __this->get__tb_7();
 		String_t* L_1 = ___name0;
 		int32_t L_2 = ___invokeAttr1;
 		Binder_t3404612058 * L_3 = ___binder2;
@@ -8845,7 +8845,7 @@ extern "C"  bool EnumBuilder_IsValueTypeImpl_m3635754638 (EnumBuilder_t280871446
 extern "C"  bool EnumBuilder_IsDefined_m255842204 (EnumBuilder_t2808714468 * __this, Type_t * ___attributeType0, bool ___inherit1, const MethodInfo* method)
 {
 	{
-		TypeBuilder_t3308873219 * L_0 = __this->get__tb_8();
+		TypeBuilder_t3308873219 * L_0 = __this->get__tb_7();
 		Type_t * L_1 = ___attributeType0;
 		bool L_2 = ___inherit1;
 		NullCheck(L_0);
@@ -9064,7 +9064,7 @@ extern "C"  bool GenericTypeParameterBuilder_IsSubclassOf_m563999142 (GenericTyp
 	}
 	int32_t G_B7_0 = 0;
 	{
-		TypeBuilder_t3308873219 * L_0 = __this->get_tbuilder_8();
+		TypeBuilder_t3308873219 * L_0 = __this->get_tbuilder_7();
 		NullCheck(L_0);
 		Module_t4282841206 * L_1 = TypeBuilder_get_Module_m1668298460(L_0, /*hidden argument*/NULL);
 		NullCheck(((ModuleBuilder_t4156028127 *)CastclassClass(L_1, ModuleBuilder_t4156028127_il2cpp_TypeInfo_var)));
@@ -9133,7 +9133,7 @@ extern "C"  int32_t GenericTypeParameterBuilder_GetAttributeFlagsImpl_m333818226
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		TypeBuilder_t3308873219 * L_0 = __this->get_tbuilder_8();
+		TypeBuilder_t3308873219 * L_0 = __this->get_tbuilder_7();
 		NullCheck(L_0);
 		Module_t4282841206 * L_1 = TypeBuilder_get_Module_m1668298460(L_0, /*hidden argument*/NULL);
 		NullCheck(((ModuleBuilder_t4156028127 *)CastclassClass(L_1, ModuleBuilder_t4156028127_il2cpp_TypeInfo_var)));
@@ -9283,14 +9283,14 @@ extern "C"  bool GenericTypeParameterBuilder_IsValueTypeImpl_m20800593 (GenericT
 {
 	int32_t G_B3_0 = 0;
 	{
-		Type_t * L_0 = __this->get_base_type_11();
+		Type_t * L_0 = __this->get_base_type_10();
 		if (!L_0)
 		{
 			goto IL_001b;
 		}
 	}
 	{
-		Type_t * L_1 = __this->get_base_type_11();
+		Type_t * L_1 = __this->get_base_type_10();
 		NullCheck(L_1);
 		bool L_2 = Type_get_IsValueType_m1733572463(L_1, /*hidden argument*/NULL);
 		G_B3_0 = ((int32_t)(L_2));
@@ -9334,7 +9334,7 @@ extern "C"  Type_t * GenericTypeParameterBuilder_get_UnderlyingSystemType_m20057
 extern "C"  Assembly_t4268412390 * GenericTypeParameterBuilder_get_Assembly_m2103587580 (GenericTypeParameterBuilder_t1370236603 * __this, const MethodInfo* method)
 {
 	{
-		TypeBuilder_t3308873219 * L_0 = __this->get_tbuilder_8();
+		TypeBuilder_t3308873219 * L_0 = __this->get_tbuilder_7();
 		NullCheck(L_0);
 		Assembly_t4268412390 * L_1 = TypeBuilder_get_Assembly_m492491492(L_0, /*hidden argument*/NULL);
 		return L_1;
@@ -9351,7 +9351,7 @@ extern "C"  String_t* GenericTypeParameterBuilder_get_AssemblyQualifiedName_m902
 extern "C"  Type_t * GenericTypeParameterBuilder_get_BaseType_m101683868 (GenericTypeParameterBuilder_t1370236603 * __this, const MethodInfo* method)
 {
 	{
-		Type_t * L_0 = __this->get_base_type_11();
+		Type_t * L_0 = __this->get_base_type_10();
 		return L_0;
 	}
 }
@@ -9390,7 +9390,7 @@ extern "C"  ObjectU5BU5D_t3614634134* GenericTypeParameterBuilder_GetCustomAttri
 extern "C"  String_t* GenericTypeParameterBuilder_get_Name_m2640162747 (GenericTypeParameterBuilder_t1370236603 * __this, const MethodInfo* method)
 {
 	{
-		String_t* L_0 = __this->get_name_10();
+		String_t* L_0 = __this->get_name_9();
 		return L_0;
 	}
 }
@@ -9405,7 +9405,7 @@ extern "C"  String_t* GenericTypeParameterBuilder_get_Namespace_m1776615511 (Gen
 extern "C"  Module_t4282841206 * GenericTypeParameterBuilder_get_Module_m2427847092 (GenericTypeParameterBuilder_t1370236603 * __this, const MethodInfo* method)
 {
 	{
-		TypeBuilder_t3308873219 * L_0 = __this->get_tbuilder_8();
+		TypeBuilder_t3308873219 * L_0 = __this->get_tbuilder_7();
 		NullCheck(L_0);
 		Module_t4282841206 * L_1 = TypeBuilder_get_Module_m1668298460(L_0, /*hidden argument*/NULL);
 		return L_1;
@@ -9416,14 +9416,14 @@ extern "C"  Type_t * GenericTypeParameterBuilder_get_DeclaringType_m1652924692 (
 {
 	Type_t * G_B3_0 = NULL;
 	{
-		MethodBuilder_t644187984 * L_0 = __this->get_mbuilder_9();
+		MethodBuilder_t644187984 * L_0 = __this->get_mbuilder_8();
 		if (!L_0)
 		{
 			goto IL_001b;
 		}
 	}
 	{
-		MethodBuilder_t644187984 * L_1 = __this->get_mbuilder_9();
+		MethodBuilder_t644187984 * L_1 = __this->get_mbuilder_8();
 		NullCheck(L_1);
 		Type_t * L_2 = MethodBuilder_get_DeclaringType_m2734207591(L_1, /*hidden argument*/NULL);
 		G_B3_0 = L_2;
@@ -9432,7 +9432,7 @@ extern "C"  Type_t * GenericTypeParameterBuilder_get_DeclaringType_m1652924692 (
 
 IL_001b:
 	{
-		TypeBuilder_t3308873219 * L_3 = __this->get_tbuilder_8();
+		TypeBuilder_t3308873219 * L_3 = __this->get_tbuilder_7();
 		G_B3_0 = ((Type_t *)(L_3));
 	}
 
@@ -9540,7 +9540,7 @@ extern "C"  Exception_t1927440687 * GenericTypeParameterBuilder_not_supported_m3
 extern "C"  String_t* GenericTypeParameterBuilder_ToString_m4223425511 (GenericTypeParameterBuilder_t1370236603 * __this, const MethodInfo* method)
 {
 	{
-		String_t* L_0 = __this->get_name_10();
+		String_t* L_0 = __this->get_name_9();
 		return L_0;
 	}
 }
@@ -10829,7 +10829,7 @@ extern "C"  TypeU5BU5D_t1664964607* MethodBuilder_GetGenericArguments_m948618404
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		TypeU5BU5D_t1664964607* L_1 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_3();
+		TypeU5BU5D_t1664964607* L_1 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_2();
 		return L_1;
 	}
 
@@ -11113,7 +11113,7 @@ extern "C"  TypeU5BU5D_t1664964607* ModuleBuilder_GetTypes_m93550753 (ModuleBuil
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		TypeU5BU5D_t1664964607* L_1 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_3();
+		TypeU5BU5D_t1664964607* L_1 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_2();
 		return L_1;
 	}
 
@@ -13564,7 +13564,7 @@ extern "C"  int32_t ParameterBuilder_get_Position_m4023585547 (ParameterBuilder_
 extern "C"  int32_t TypeBuilder_GetAttributeFlagsImpl_m2593449699 (TypeBuilder_t3308873219 * __this, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = __this->get_attrs_17();
+		int32_t L_0 = __this->get_attrs_16();
 		return L_0;
 	}
 }
@@ -13586,7 +13586,7 @@ extern "C"  void TypeBuilder_create_generic_class_m986834171 (TypeBuilder_t33088
 extern "C"  Assembly_t4268412390 * TypeBuilder_get_Assembly_m492491492 (TypeBuilder_t3308873219 * __this, const MethodInfo* method)
 {
 	{
-		ModuleBuilder_t4156028127 * L_0 = __this->get_pmodule_18();
+		ModuleBuilder_t4156028127 * L_0 = __this->get_pmodule_17();
 		NullCheck(L_0);
 		Assembly_t4268412390 * L_1 = Module_get_Assembly_m3690289982(L_0, /*hidden argument*/NULL);
 		return L_1;
@@ -13605,7 +13605,7 @@ extern "C"  String_t* TypeBuilder_get_AssemblyQualifiedName_m2097258567 (TypeBui
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		String_t* L_0 = __this->get_fullname_21();
+		String_t* L_0 = __this->get_fullname_20();
 		Assembly_t4268412390 * L_1 = TypeBuilder_get_Assembly_m492491492(__this, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		String_t* L_2 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Reflection.Assembly::get_FullName() */, L_1);
@@ -13618,7 +13618,7 @@ extern "C"  String_t* TypeBuilder_get_AssemblyQualifiedName_m2097258567 (TypeBui
 extern "C"  Type_t * TypeBuilder_get_BaseType_m4088672180 (TypeBuilder_t3308873219 * __this, const MethodInfo* method)
 {
 	{
-		Type_t * L_0 = __this->get_parent_10();
+		Type_t * L_0 = __this->get_parent_9();
 		return L_0;
 	}
 }
@@ -13626,7 +13626,7 @@ extern "C"  Type_t * TypeBuilder_get_BaseType_m4088672180 (TypeBuilder_t33088732
 extern "C"  Type_t * TypeBuilder_get_DeclaringType_m3236598700 (TypeBuilder_t3308873219 * __this, const MethodInfo* method)
 {
 	{
-		Type_t * L_0 = __this->get_nesting_type_11();
+		Type_t * L_0 = __this->get_nesting_type_10();
 		return L_0;
 	}
 }
@@ -13650,7 +13650,7 @@ extern "C"  Type_t * TypeBuilder_get_UnderlyingSystemType_m392404521 (TypeBuilde
 		}
 	}
 	{
-		Type_t * L_1 = __this->get_created_20();
+		Type_t * L_1 = __this->get_created_19();
 		NullCheck(L_1);
 		Type_t * L_2 = VirtFuncInvoker0< Type_t * >::Invoke(36 /* System.Type System.Type::get_UnderlyingSystemType() */, L_1);
 		return L_2;
@@ -13672,14 +13672,14 @@ IL_0017:
 		}
 	}
 	{
-		Type_t * L_5 = __this->get_underlying_type_23();
+		Type_t * L_5 = __this->get_underlying_type_22();
 		if (!L_5)
 		{
 			goto IL_003f;
 		}
 	}
 	{
-		Type_t * L_6 = __this->get_underlying_type_23();
+		Type_t * L_6 = __this->get_underlying_type_22();
 		return L_6;
 	}
 
@@ -13699,7 +13699,7 @@ IL_004a:
 extern "C"  String_t* TypeBuilder_get_FullName_m1626507516 (TypeBuilder_t3308873219 * __this, const MethodInfo* method)
 {
 	{
-		String_t* L_0 = __this->get_fullname_21();
+		String_t* L_0 = __this->get_fullname_20();
 		return L_0;
 	}
 }
@@ -13707,7 +13707,7 @@ extern "C"  String_t* TypeBuilder_get_FullName_m1626507516 (TypeBuilder_t3308873
 extern "C"  Module_t4282841206 * TypeBuilder_get_Module_m1668298460 (TypeBuilder_t3308873219 * __this, const MethodInfo* method)
 {
 	{
-		ModuleBuilder_t4156028127 * L_0 = __this->get_pmodule_18();
+		ModuleBuilder_t4156028127 * L_0 = __this->get_pmodule_17();
 		return L_0;
 	}
 }
@@ -13715,7 +13715,7 @@ extern "C"  Module_t4282841206 * TypeBuilder_get_Module_m1668298460 (TypeBuilder
 extern "C"  String_t* TypeBuilder_get_Name_m170882803 (TypeBuilder_t3308873219 * __this, const MethodInfo* method)
 {
 	{
-		String_t* L_0 = __this->get_tname_8();
+		String_t* L_0 = __this->get_tname_7();
 		return L_0;
 	}
 }
@@ -13723,7 +13723,7 @@ extern "C"  String_t* TypeBuilder_get_Name_m170882803 (TypeBuilder_t3308873219 *
 extern "C"  String_t* TypeBuilder_get_Namespace_m3562783599 (TypeBuilder_t3308873219 * __this, const MethodInfo* method)
 {
 	{
-		String_t* L_0 = __this->get_nspace_9();
+		String_t* L_0 = __this->get_nspace_8();
 		return L_0;
 	}
 }
@@ -13731,7 +13731,7 @@ extern "C"  String_t* TypeBuilder_get_Namespace_m3562783599 (TypeBuilder_t330887
 extern "C"  Type_t * TypeBuilder_get_ReflectedType_m2504081059 (TypeBuilder_t3308873219 * __this, const MethodInfo* method)
 {
 	{
-		Type_t * L_0 = __this->get_nesting_type_11();
+		Type_t * L_0 = __this->get_nesting_type_10();
 		return L_0;
 	}
 }
@@ -13762,7 +13762,7 @@ extern "C"  ConstructorInfo_t2851816542 * TypeBuilder_GetConstructorImpl_m419216
 	int32_t V_8 = 0;
 	{
 		TypeBuilder_check_created_m2929267877(__this, /*hidden argument*/NULL);
-		Type_t * L_0 = __this->get_created_20();
+		Type_t * L_0 = __this->get_created_19();
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_1 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Il2CppObject_0_0_0_var), /*hidden argument*/NULL);
 		if ((!(((Il2CppObject*)(Type_t *)L_0) == ((Il2CppObject*)(Type_t *)L_1))))
@@ -13771,7 +13771,7 @@ extern "C"  ConstructorInfo_t2851816542 * TypeBuilder_GetConstructorImpl_m419216
 		}
 	}
 	{
-		ConstructorBuilderU5BU5D_t775814140* L_2 = __this->get_ctors_15();
+		ConstructorBuilderU5BU5D_t775814140* L_2 = __this->get_ctors_14();
 		if (L_2)
 		{
 			goto IL_0028;
@@ -13785,7 +13785,7 @@ IL_0028:
 	{
 		V_0 = (ConstructorBuilder_t700974433 *)NULL;
 		V_1 = 0;
-		ConstructorBuilderU5BU5D_t775814140* L_3 = __this->get_ctors_15();
+		ConstructorBuilderU5BU5D_t775814140* L_3 = __this->get_ctors_14();
 		V_3 = L_3;
 		V_4 = 0;
 		goto IL_0064;
@@ -13903,7 +13903,7 @@ IL_008c:
 IL_00a5:
 	{
 		V_1 = 0;
-		ConstructorBuilderU5BU5D_t775814140* L_26 = __this->get_ctors_15();
+		ConstructorBuilderU5BU5D_t775814140* L_26 = __this->get_ctors_14();
 		V_7 = L_26;
 		V_8 = 0;
 		goto IL_00e7;
@@ -13994,7 +13994,7 @@ IL_00ff:
 
 IL_0112:
 	{
-		Type_t * L_50 = __this->get_created_20();
+		Type_t * L_50 = __this->get_created_19();
 		int32_t L_51 = ___bindingAttr0;
 		Binder_t3404612058 * L_52 = ___binder1;
 		int32_t L_53 = ___callConvention2;
@@ -14051,7 +14051,7 @@ extern "C"  ObjectU5BU5D_t3614634134* TypeBuilder_GetCustomAttributes_m163753857
 {
 	{
 		TypeBuilder_check_created_m2929267877(__this, /*hidden argument*/NULL);
-		Type_t * L_0 = __this->get_created_20();
+		Type_t * L_0 = __this->get_created_19();
 		bool L_1 = ___inherit0;
 		NullCheck(L_0);
 		ObjectU5BU5D_t3614634134* L_2 = VirtFuncInvoker1< ObjectU5BU5D_t3614634134*, bool >::Invoke(12 /* System.Object[] System.Reflection.MemberInfo::GetCustomAttributes(System.Boolean) */, L_0, L_1);
@@ -14063,7 +14063,7 @@ extern "C"  ObjectU5BU5D_t3614634134* TypeBuilder_GetCustomAttributes_m270263236
 {
 	{
 		TypeBuilder_check_created_m2929267877(__this, /*hidden argument*/NULL);
-		Type_t * L_0 = __this->get_created_20();
+		Type_t * L_0 = __this->get_created_19();
 		Type_t * L_1 = ___attributeType0;
 		bool L_2 = ___inherit1;
 		NullCheck(L_0);
@@ -14106,37 +14106,37 @@ extern "C"  ConstructorBuilder_t700974433 * TypeBuilder_DefineConstructor_m29724
 		ConstructorBuilder_t700974433 * L_5 = (ConstructorBuilder_t700974433 *)il2cpp_codegen_object_new(ConstructorBuilder_t700974433_il2cpp_TypeInfo_var);
 		ConstructorBuilder__ctor_m2001998159(L_5, __this, L_0, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
 		V_0 = L_5;
-		ConstructorBuilderU5BU5D_t775814140* L_6 = __this->get_ctors_15();
+		ConstructorBuilderU5BU5D_t775814140* L_6 = __this->get_ctors_14();
 		if (!L_6)
 		{
 			goto IL_005a;
 		}
 	}
 	{
-		ConstructorBuilderU5BU5D_t775814140* L_7 = __this->get_ctors_15();
+		ConstructorBuilderU5BU5D_t775814140* L_7 = __this->get_ctors_14();
 		NullCheck(L_7);
 		V_1 = ((ConstructorBuilderU5BU5D_t775814140*)SZArrayNew(ConstructorBuilderU5BU5D_t775814140_il2cpp_TypeInfo_var, (uint32_t)((int32_t)((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_7)->max_length))))+(int32_t)1))));
-		ConstructorBuilderU5BU5D_t775814140* L_8 = __this->get_ctors_15();
+		ConstructorBuilderU5BU5D_t775814140* L_8 = __this->get_ctors_14();
 		ConstructorBuilderU5BU5D_t775814140* L_9 = V_1;
-		ConstructorBuilderU5BU5D_t775814140* L_10 = __this->get_ctors_15();
+		ConstructorBuilderU5BU5D_t775814140* L_10 = __this->get_ctors_14();
 		NullCheck(L_10);
 		Array_Copy_m2363740072(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_8, (Il2CppArray *)(Il2CppArray *)L_9, (((int32_t)((int32_t)(((Il2CppArray *)L_10)->max_length)))), /*hidden argument*/NULL);
 		ConstructorBuilderU5BU5D_t775814140* L_11 = V_1;
-		ConstructorBuilderU5BU5D_t775814140* L_12 = __this->get_ctors_15();
+		ConstructorBuilderU5BU5D_t775814140* L_12 = __this->get_ctors_14();
 		NullCheck(L_12);
 		ConstructorBuilder_t700974433 * L_13 = V_0;
 		NullCheck(L_11);
 		ArrayElementTypeCheck (L_11, L_13);
 		(L_11)->SetAt(static_cast<il2cpp_array_size_t>((((int32_t)((int32_t)(((Il2CppArray *)L_12)->max_length))))), (ConstructorBuilder_t700974433 *)L_13);
 		ConstructorBuilderU5BU5D_t775814140* L_14 = V_1;
-		__this->set_ctors_15(L_14);
+		__this->set_ctors_14(L_14);
 		goto IL_006f;
 	}
 
 IL_005a:
 	{
-		__this->set_ctors_15(((ConstructorBuilderU5BU5D_t775814140*)SZArrayNew(ConstructorBuilderU5BU5D_t775814140_il2cpp_TypeInfo_var, (uint32_t)1)));
-		ConstructorBuilderU5BU5D_t775814140* L_15 = __this->get_ctors_15();
+		__this->set_ctors_14(((ConstructorBuilderU5BU5D_t775814140*)SZArrayNew(ConstructorBuilderU5BU5D_t775814140_il2cpp_TypeInfo_var, (uint32_t)1)));
+		ConstructorBuilderU5BU5D_t775814140* L_15 = __this->get_ctors_14();
 		ConstructorBuilder_t700974433 * L_16 = V_0;
 		NullCheck(L_15);
 		ArrayElementTypeCheck (L_15, L_16);
@@ -14168,21 +14168,21 @@ extern "C"  ConstructorBuilder_t700974433 * TypeBuilder_DefineDefaultConstructor
 	ConstructorBuilder_t700974433 * V_2 = NULL;
 	ILGenerator_t99948092 * V_3 = NULL;
 	{
-		Type_t * L_0 = __this->get_parent_10();
+		Type_t * L_0 = __this->get_parent_9();
 		if (!L_0)
 		{
 			goto IL_0017;
 		}
 	}
 	{
-		Type_t * L_1 = __this->get_parent_10();
+		Type_t * L_1 = __this->get_parent_9();
 		V_0 = L_1;
 		goto IL_0028;
 	}
 
 IL_0017:
 	{
-		ModuleBuilder_t4156028127 * L_2 = __this->get_pmodule_18();
+		ModuleBuilder_t4156028127 * L_2 = __this->get_pmodule_17();
 		NullCheck(L_2);
 		AssemblyBuilder_t1646117627 * L_3 = L_2->get_assemblyb_12();
 		NullCheck(L_3);
@@ -14194,7 +14194,7 @@ IL_0028:
 	{
 		Type_t * L_5 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		TypeU5BU5D_t1664964607* L_6 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_3();
+		TypeU5BU5D_t1664964607* L_6 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_2();
 		NullCheck(L_5);
 		ConstructorInfo_t2851816542 * L_7 = Type_GetConstructor_m663514781(L_5, ((int32_t)52), (Binder_t3404612058 *)NULL, L_6, (ParameterModifierU5BU5D_t963192633*)(ParameterModifierU5BU5D_t963192633*)NULL, /*hidden argument*/NULL);
 		V_1 = L_7;
@@ -14214,7 +14214,7 @@ IL_0049:
 	{
 		int32_t L_10 = ___attributes0;
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		TypeU5BU5D_t1664964607* L_11 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_3();
+		TypeU5BU5D_t1664964607* L_11 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_2();
 		ConstructorBuilder_t700974433 * L_12 = TypeBuilder_DefineConstructor_m3431248509(__this, L_10, 1, L_11, /*hidden argument*/NULL);
 		V_2 = L_12;
 		ConstructorBuilder_t700974433 * L_13 = V_2;
@@ -14308,7 +14308,7 @@ extern "C"  bool TypeBuilder_has_ctor_method_m3449702467 (TypeBuilder_t330887321
 
 IL_000d:
 	{
-		MethodBuilderU5BU5D_t4238041457* L_0 = __this->get_methods_14();
+		MethodBuilderU5BU5D_t4238041457* L_0 = __this->get_methods_13();
 		int32_t L_1 = V_1;
 		NullCheck(L_0);
 		int32_t L_2 = L_1;
@@ -14350,7 +14350,7 @@ IL_003b:
 IL_003f:
 	{
 		int32_t L_13 = V_1;
-		int32_t L_14 = __this->get_num_methods_13();
+		int32_t L_14 = __this->get_num_methods_12();
 		if ((((int32_t)L_13) < ((int32_t)L_14)))
 		{
 			goto IL_000d;
@@ -14393,14 +14393,14 @@ extern "C"  Type_t * TypeBuilder_CreateType_m4126056124 (TypeBuilder_t3308873219
 	ConstructorBuilderU5BU5D_t775814140* V_9 = NULL;
 	int32_t V_10 = 0;
 	{
-		bool L_0 = __this->get_createTypeCalled_22();
+		bool L_0 = __this->get_createTypeCalled_21();
 		if (!L_0)
 		{
 			goto IL_0012;
 		}
 	}
 	{
-		Type_t * L_1 = __this->get_created_20();
+		Type_t * L_1 = __this->get_created_19();
 		return L_1;
 	}
 
@@ -14413,14 +14413,14 @@ IL_0012:
 		}
 	}
 	{
-		Type_t * L_3 = __this->get_parent_10();
+		Type_t * L_3 = __this->get_parent_9();
 		if (L_3)
 		{
 			goto IL_0069;
 		}
 	}
 	{
-		ModuleBuilder_t4156028127 * L_4 = __this->get_pmodule_18();
+		ModuleBuilder_t4156028127 * L_4 = __this->get_pmodule_17();
 		NullCheck(L_4);
 		AssemblyBuilder_t1646117627 * L_5 = L_4->get_assemblyb_12();
 		NullCheck(L_5);
@@ -14440,7 +14440,7 @@ IL_0012:
 		}
 	}
 	{
-		ModuleBuilder_t4156028127 * L_9 = __this->get_pmodule_18();
+		ModuleBuilder_t4156028127 * L_9 = __this->get_pmodule_17();
 		NullCheck(L_9);
 		AssemblyBuilder_t1646117627 * L_10 = L_9->get_assemblyb_12();
 		NullCheck(L_10);
@@ -14451,14 +14451,14 @@ IL_0012:
 IL_0069:
 	{
 		TypeBuilder_create_generic_class_m986834171(__this, /*hidden argument*/NULL);
-		FieldBuilderU5BU5D_t867683112* L_12 = __this->get_fields_16();
+		FieldBuilderU5BU5D_t867683112* L_12 = __this->get_fields_15();
 		if (!L_12)
 		{
 			goto IL_010c;
 		}
 	}
 	{
-		FieldBuilderU5BU5D_t867683112* L_13 = __this->get_fields_16();
+		FieldBuilderU5BU5D_t867683112* L_13 = __this->get_fields_15();
 		V_1 = L_13;
 		V_2 = 0;
 		goto IL_0103;
@@ -14571,14 +14571,14 @@ IL_0103:
 
 IL_010c:
 	{
-		Type_t * L_39 = __this->get_parent_10();
+		Type_t * L_39 = __this->get_parent_9();
 		if (!L_39)
 		{
 			goto IL_0162;
 		}
 	}
 	{
-		Type_t * L_40 = __this->get_parent_10();
+		Type_t * L_40 = __this->get_parent_9();
 		NullCheck(L_40);
 		bool L_41 = Type_get_IsSealed_m2380985836(L_40, /*hidden argument*/NULL);
 		if (!L_41)
@@ -14618,8 +14618,8 @@ IL_010c:
 
 IL_0162:
 	{
-		Type_t * L_51 = __this->get_parent_10();
-		ModuleBuilder_t4156028127 * L_52 = __this->get_pmodule_18();
+		Type_t * L_51 = __this->get_parent_9();
+		ModuleBuilder_t4156028127 * L_52 = __this->get_pmodule_17();
 		NullCheck(L_52);
 		AssemblyBuilder_t1646117627 * L_53 = L_52->get_assemblyb_12();
 		NullCheck(L_53);
@@ -14630,7 +14630,7 @@ IL_0162:
 		}
 	}
 	{
-		MethodBuilderU5BU5D_t4238041457* L_55 = __this->get_methods_14();
+		MethodBuilderU5BU5D_t4238041457* L_55 = __this->get_methods_13();
 		if (!L_55)
 		{
 			goto IL_01c3;
@@ -14668,7 +14668,7 @@ IL_0162:
 
 IL_01c3:
 	{
-		MethodBuilderU5BU5D_t4238041457* L_65 = __this->get_methods_14();
+		MethodBuilderU5BU5D_t4238041457* L_65 = __this->get_methods_13();
 		if (!L_65)
 		{
 			goto IL_0232;
@@ -14683,7 +14683,7 @@ IL_01c3:
 
 IL_01e1:
 	{
-		MethodBuilderU5BU5D_t4238041457* L_67 = __this->get_methods_14();
+		MethodBuilderU5BU5D_t4238041457* L_67 = __this->get_methods_13();
 		int32_t L_68 = V_6;
 		NullCheck(L_67);
 		int32_t L_69 = L_68;
@@ -14728,7 +14728,7 @@ IL_0211:
 IL_0225:
 	{
 		int32_t L_80 = V_6;
-		int32_t L_81 = __this->get_num_methods_13();
+		int32_t L_81 = __this->get_num_methods_12();
 		if ((((int32_t)L_80) < ((int32_t)L_81)))
 		{
 			goto IL_01e1;
@@ -14751,14 +14751,14 @@ IL_0232:
 		}
 	}
 	{
-		ConstructorBuilderU5BU5D_t775814140* L_84 = __this->get_ctors_15();
+		ConstructorBuilderU5BU5D_t775814140* L_84 = __this->get_ctors_14();
 		if (L_84)
 		{
 			goto IL_0297;
 		}
 	}
 	{
-		String_t* L_85 = __this->get_tname_8();
+		String_t* L_85 = __this->get_tname_7();
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		bool L_86 = String_op_Inequality_m304203149(NULL /*static, unused*/, L_85, _stringLiteral216645436, /*hidden argument*/NULL);
 		if (!L_86)
@@ -14786,14 +14786,14 @@ IL_0232:
 
 IL_0297:
 	{
-		ConstructorBuilderU5BU5D_t775814140* L_89 = __this->get_ctors_15();
+		ConstructorBuilderU5BU5D_t775814140* L_89 = __this->get_ctors_14();
 		if (!L_89)
 		{
 			goto IL_02d1;
 		}
 	}
 	{
-		ConstructorBuilderU5BU5D_t775814140* L_90 = __this->get_ctors_15();
+		ConstructorBuilderU5BU5D_t775814140* L_90 = __this->get_ctors_14();
 		V_9 = L_90;
 		V_10 = 0;
 		goto IL_02c6;
@@ -14827,17 +14827,17 @@ IL_02c6:
 
 IL_02d1:
 	{
-		__this->set_createTypeCalled_22((bool)1);
+		__this->set_createTypeCalled_21((bool)1);
 		Type_t * L_99 = TypeBuilder_create_runtime_class_m2719530260(__this, __this, /*hidden argument*/NULL);
-		__this->set_created_20(L_99);
-		Type_t * L_100 = __this->get_created_20();
+		__this->set_created_19(L_99);
+		Type_t * L_100 = __this->get_created_19();
 		if (!L_100)
 		{
 			goto IL_02f7;
 		}
 	}
 	{
-		Type_t * L_101 = __this->get_created_20();
+		Type_t * L_101 = __this->get_created_19();
 		return L_101;
 	}
 
@@ -14865,7 +14865,7 @@ extern "C"  ConstructorInfoU5BU5D_t1996683371* TypeBuilder_GetConstructors_m7741
 		}
 	}
 	{
-		Type_t * L_1 = __this->get_created_20();
+		Type_t * L_1 = __this->get_created_19();
 		int32_t L_2 = ___bindingAttr0;
 		NullCheck(L_1);
 		ConstructorInfoU5BU5D_t1996683371* L_3 = VirtFuncInvoker1< ConstructorInfoU5BU5D_t1996683371*, int32_t >::Invoke(70 /* System.Reflection.ConstructorInfo[] System.Type::GetConstructors(System.Reflection.BindingFlags) */, L_1, L_2);
@@ -14913,7 +14913,7 @@ extern "C"  ConstructorInfoU5BU5D_t1996683371* TypeBuilder_GetConstructorsIntern
 	int32_t V_5 = 0;
 	ConstructorInfoU5BU5D_t1996683371* V_6 = NULL;
 	{
-		ConstructorBuilderU5BU5D_t775814140* L_0 = __this->get_ctors_15();
+		ConstructorBuilderU5BU5D_t775814140* L_0 = __this->get_ctors_14();
 		if (L_0)
 		{
 			goto IL_0012;
@@ -14928,7 +14928,7 @@ IL_0012:
 		ArrayList_t4252133567 * L_1 = (ArrayList_t4252133567 *)il2cpp_codegen_object_new(ArrayList_t4252133567_il2cpp_TypeInfo_var);
 		ArrayList__ctor_m4012174379(L_1, /*hidden argument*/NULL);
 		V_0 = L_1;
-		ConstructorBuilderU5BU5D_t775814140* L_2 = __this->get_ctors_15();
+		ConstructorBuilderU5BU5D_t775814140* L_2 = __this->get_ctors_14();
 		V_4 = L_2;
 		V_5 = 0;
 		goto IL_00a3;
@@ -15101,7 +15101,7 @@ extern "C"  EventInfo_t * TypeBuilder_GetEvent_m3876348075 (TypeBuilder_t3308873
 {
 	{
 		TypeBuilder_check_created_m2929267877(__this, /*hidden argument*/NULL);
-		Type_t * L_0 = __this->get_created_20();
+		Type_t * L_0 = __this->get_created_19();
 		String_t* L_1 = ___name0;
 		int32_t L_2 = ___bindingAttr1;
 		NullCheck(L_0);
@@ -15126,14 +15126,14 @@ extern "C"  FieldInfo_t * TypeBuilder_GetField_m2112455315 (TypeBuilder_t3308873
 	FieldBuilderU5BU5D_t867683112* V_3 = NULL;
 	int32_t V_4 = 0;
 	{
-		Type_t * L_0 = __this->get_created_20();
+		Type_t * L_0 = __this->get_created_19();
 		if (!L_0)
 		{
 			goto IL_0019;
 		}
 	}
 	{
-		Type_t * L_1 = __this->get_created_20();
+		Type_t * L_1 = __this->get_created_19();
 		String_t* L_2 = ___name0;
 		int32_t L_3 = ___bindingAttr1;
 		NullCheck(L_1);
@@ -15143,7 +15143,7 @@ extern "C"  FieldInfo_t * TypeBuilder_GetField_m2112455315 (TypeBuilder_t3308873
 
 IL_0019:
 	{
-		FieldBuilderU5BU5D_t867683112* L_5 = __this->get_fields_16();
+		FieldBuilderU5BU5D_t867683112* L_5 = __this->get_fields_15();
 		if (L_5)
 		{
 			goto IL_0026;
@@ -15155,7 +15155,7 @@ IL_0019:
 
 IL_0026:
 	{
-		FieldBuilderU5BU5D_t867683112* L_6 = __this->get_fields_16();
+		FieldBuilderU5BU5D_t867683112* L_6 = __this->get_fields_15();
 		V_3 = L_6;
 		V_4 = 0;
 		goto IL_00ca;
@@ -15344,14 +15344,14 @@ extern "C"  FieldInfoU5BU5D_t125053523* TypeBuilder_GetFields_m3875401338 (TypeB
 	int32_t V_5 = 0;
 	FieldInfoU5BU5D_t125053523* V_6 = NULL;
 	{
-		Type_t * L_0 = __this->get_created_20();
+		Type_t * L_0 = __this->get_created_19();
 		if (!L_0)
 		{
 			goto IL_0018;
 		}
 	}
 	{
-		Type_t * L_1 = __this->get_created_20();
+		Type_t * L_1 = __this->get_created_19();
 		int32_t L_2 = ___bindingAttr0;
 		NullCheck(L_1);
 		FieldInfoU5BU5D_t125053523* L_3 = VirtFuncInvoker1< FieldInfoU5BU5D_t125053523*, int32_t >::Invoke(45 /* System.Reflection.FieldInfo[] System.Type::GetFields(System.Reflection.BindingFlags) */, L_1, L_2);
@@ -15360,7 +15360,7 @@ extern "C"  FieldInfoU5BU5D_t125053523* TypeBuilder_GetFields_m3875401338 (TypeB
 
 IL_0018:
 	{
-		FieldBuilderU5BU5D_t867683112* L_4 = __this->get_fields_16();
+		FieldBuilderU5BU5D_t867683112* L_4 = __this->get_fields_15();
 		if (L_4)
 		{
 			goto IL_002a;
@@ -15375,7 +15375,7 @@ IL_002a:
 		ArrayList_t4252133567 * L_5 = (ArrayList_t4252133567 *)il2cpp_codegen_object_new(ArrayList_t4252133567_il2cpp_TypeInfo_var);
 		ArrayList__ctor_m4012174379(L_5, /*hidden argument*/NULL);
 		V_0 = L_5;
-		FieldBuilderU5BU5D_t867683112* L_6 = __this->get_fields_16();
+		FieldBuilderU5BU5D_t867683112* L_6 = __this->get_fields_15();
 		V_4 = L_6;
 		V_5 = 0;
 		goto IL_00c6;
@@ -15559,7 +15559,7 @@ extern "C"  TypeU5BU5D_t1664964607* TypeBuilder_GetInterfaces_m1818658502 (TypeB
 		}
 	}
 	{
-		Type_t * L_1 = __this->get_created_20();
+		Type_t * L_1 = __this->get_created_19();
 		NullCheck(L_1);
 		TypeU5BU5D_t1664964607* L_2 = VirtFuncInvoker0< TypeU5BU5D_t1664964607* >::Invoke(39 /* System.Type[] System.Type::GetInterfaces() */, L_1);
 		return L_2;
@@ -15567,17 +15567,17 @@ extern "C"  TypeU5BU5D_t1664964607* TypeBuilder_GetInterfaces_m1818658502 (TypeB
 
 IL_0017:
 	{
-		TypeU5BU5D_t1664964607* L_3 = __this->get_interfaces_12();
+		TypeU5BU5D_t1664964607* L_3 = __this->get_interfaces_11();
 		if (!L_3)
 		{
 			goto IL_003f;
 		}
 	}
 	{
-		TypeU5BU5D_t1664964607* L_4 = __this->get_interfaces_12();
+		TypeU5BU5D_t1664964607* L_4 = __this->get_interfaces_11();
 		NullCheck(L_4);
 		V_0 = ((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_4)->max_length))))));
-		TypeU5BU5D_t1664964607* L_5 = __this->get_interfaces_12();
+		TypeU5BU5D_t1664964607* L_5 = __this->get_interfaces_11();
 		TypeU5BU5D_t1664964607* L_6 = V_0;
 		NullCheck((Il2CppArray *)(Il2CppArray *)L_5);
 		Array_CopyTo_m4061033315((Il2CppArray *)(Il2CppArray *)L_5, (Il2CppArray *)(Il2CppArray *)L_6, 0, /*hidden argument*/NULL);
@@ -15588,7 +15588,7 @@ IL_0017:
 IL_003f:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		TypeU5BU5D_t1664964607* L_8 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_3();
+		TypeU5BU5D_t1664964607* L_8 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_2();
 		return L_8;
 	}
 }
@@ -15627,14 +15627,14 @@ extern "C"  MethodInfoU5BU5D_t152480188* TypeBuilder_GetMethodsByName_m229541072
 		}
 	}
 	{
-		Type_t * L_1 = __this->get_parent_10();
+		Type_t * L_1 = __this->get_parent_9();
 		if (!L_1)
 		{
 			goto IL_0142;
 		}
 	}
 	{
-		Type_t * L_2 = __this->get_parent_10();
+		Type_t * L_2 = __this->get_parent_9();
 		int32_t L_3 = ___bindingAttr1;
 		NullCheck(L_2);
 		MethodInfoU5BU5D_t152480188* L_4 = VirtFuncInvoker1< MethodInfoU5BU5D_t152480188*, int32_t >::Invoke(51 /* System.Reflection.MethodInfo[] System.Type::GetMethods(System.Reflection.BindingFlags) */, L_2, L_3);
@@ -15774,7 +15774,7 @@ IL_00dc:
 		}
 	}
 	{
-		MethodBuilderU5BU5D_t4238041457* L_28 = __this->get_methods_14();
+		MethodBuilderU5BU5D_t4238041457* L_28 = __this->get_methods_13();
 		if (L_28)
 		{
 			goto IL_010b;
@@ -15794,7 +15794,7 @@ IL_00dc:
 
 IL_010b:
 	{
-		MethodBuilderU5BU5D_t4238041457* L_33 = __this->get_methods_14();
+		MethodBuilderU5BU5D_t4238041457* L_33 = __this->get_methods_13();
 		NullCheck(L_33);
 		ArrayList_t4252133567 * L_34 = V_4;
 		NullCheck(L_34);
@@ -15804,7 +15804,7 @@ IL_010b:
 		MethodInfoU5BU5D_t152480188* L_37 = V_0;
 		NullCheck(L_36);
 		VirtActionInvoker2< Il2CppArray *, int32_t >::Invoke(37 /* System.Void System.Collections.ArrayList::CopyTo(System.Array,System.Int32) */, L_36, (Il2CppArray *)(Il2CppArray *)L_37, 0);
-		MethodBuilderU5BU5D_t4238041457* L_38 = __this->get_methods_14();
+		MethodBuilderU5BU5D_t4238041457* L_38 = __this->get_methods_13();
 		MethodInfoU5BU5D_t152480188* L_39 = V_0;
 		ArrayList_t4252133567 * L_40 = V_4;
 		NullCheck(L_40);
@@ -15820,7 +15820,7 @@ IL_013d:
 
 IL_0142:
 	{
-		MethodBuilderU5BU5D_t4238041457* L_42 = __this->get_methods_14();
+		MethodBuilderU5BU5D_t4238041457* L_42 = __this->get_methods_13();
 		V_0 = (MethodInfoU5BU5D_t152480188*)L_42;
 	}
 
@@ -16337,7 +16337,7 @@ extern "C"  bool TypeBuilder_HasElementTypeImpl_m3160520656 (TypeBuilder_t330887
 
 IL_000d:
 	{
-		Type_t * L_1 = __this->get_created_20();
+		Type_t * L_1 = __this->get_created_19();
 		NullCheck(L_1);
 		bool L_2 = Type_get_HasElementType_m3319917896(L_1, /*hidden argument*/NULL);
 		return L_2;
@@ -16348,7 +16348,7 @@ extern "C"  Il2CppObject * TypeBuilder_InvokeMember_m1992906893 (TypeBuilder_t33
 {
 	{
 		TypeBuilder_check_created_m2929267877(__this, /*hidden argument*/NULL);
-		Type_t * L_0 = __this->get_created_20();
+		Type_t * L_0 = __this->get_created_19();
 		String_t* L_1 = ___name0;
 		int32_t L_2 = ___invokeAttr1;
 		Binder_t3404612058 * L_3 = ___binder2;
@@ -16404,7 +16404,7 @@ extern "C"  bool TypeBuilder_IsValueTypeImpl_m1499671481 (TypeBuilder_t330887321
 	}
 	int32_t G_B5_0 = 0;
 	{
-		ModuleBuilder_t4156028127 * L_0 = __this->get_pmodule_18();
+		ModuleBuilder_t4156028127 * L_0 = __this->get_pmodule_17();
 		NullCheck(L_0);
 		AssemblyBuilder_t1646117627 * L_1 = L_0->get_assemblyb_12();
 		NullCheck(L_1);
@@ -16428,7 +16428,7 @@ extern "C"  bool TypeBuilder_IsValueTypeImpl_m1499671481 (TypeBuilder_t330887321
 
 IL_0032:
 	{
-		ModuleBuilder_t4156028127 * L_6 = __this->get_pmodule_18();
+		ModuleBuilder_t4156028127 * L_6 = __this->get_pmodule_17();
 		NullCheck(L_6);
 		AssemblyBuilder_t1646117627 * L_7 = L_6->get_assemblyb_12();
 		NullCheck(L_7);
@@ -16439,7 +16439,7 @@ IL_0032:
 		}
 	}
 	{
-		ModuleBuilder_t4156028127 * L_9 = __this->get_pmodule_18();
+		ModuleBuilder_t4156028127 * L_9 = __this->get_pmodule_17();
 		NullCheck(L_9);
 		AssemblyBuilder_t1646117627 * L_10 = L_9->get_assemblyb_12();
 		NullCheck(L_10);
@@ -16472,7 +16472,7 @@ extern "C"  RuntimeTypeHandle_t2330101084  TypeBuilder_get_TypeHandle_m922348781
 {
 	{
 		TypeBuilder_check_created_m2929267877(__this, /*hidden argument*/NULL);
-		Type_t * L_0 = __this->get_created_20();
+		Type_t * L_0 = __this->get_created_19();
 		NullCheck(L_0);
 		RuntimeTypeHandle_t2330101084  L_1 = VirtFuncInvoker0< RuntimeTypeHandle_t2330101084  >::Invoke(35 /* System.RuntimeTypeHandle System.Type::get_TypeHandle() */, L_0);
 		return L_1;
@@ -16501,14 +16501,14 @@ extern "C"  void TypeBuilder_SetParent_m387557893 (TypeBuilder_t3308873219 * __t
 		}
 	}
 	{
-		int32_t L_1 = __this->get_attrs_17();
+		int32_t L_1 = __this->get_attrs_16();
 		if (!((int32_t)((int32_t)L_1&(int32_t)((int32_t)32))))
 		{
 			goto IL_0042;
 		}
 	}
 	{
-		int32_t L_2 = __this->get_attrs_17();
+		int32_t L_2 = __this->get_attrs_16();
 		if (((int32_t)((int32_t)L_2&(int32_t)((int32_t)128))))
 		{
 			goto IL_0036;
@@ -16522,7 +16522,7 @@ extern "C"  void TypeBuilder_SetParent_m387557893 (TypeBuilder_t3308873219 * __t
 
 IL_0036:
 	{
-		__this->set_parent_10((Type_t *)NULL);
+		__this->set_parent_9((Type_t *)NULL);
 		goto IL_0052;
 	}
 
@@ -16530,7 +16530,7 @@ IL_0042:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_4 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Il2CppObject_0_0_0_var), /*hidden argument*/NULL);
-		__this->set_parent_10(L_4);
+		__this->set_parent_9(L_4);
 	}
 
 IL_0052:
@@ -16541,7 +16541,7 @@ IL_0052:
 IL_0057:
 	{
 		Type_t * L_5 = ___parent0;
-		__this->set_parent_10(L_5);
+		__this->set_parent_9(L_5);
 	}
 
 IL_005e:
@@ -16554,7 +16554,7 @@ IL_005e:
 extern "C"  int32_t TypeBuilder_get_next_table_index_m1415870184 (TypeBuilder_t3308873219 * __this, Il2CppObject * ___obj0, int32_t ___table1, bool ___inc2, const MethodInfo* method)
 {
 	{
-		ModuleBuilder_t4156028127 * L_0 = __this->get_pmodule_18();
+		ModuleBuilder_t4156028127 * L_0 = __this->get_pmodule_17();
 		Il2CppObject * L_1 = ___obj0;
 		int32_t L_2 = ___table1;
 		bool L_3 = ___inc2;
@@ -16567,7 +16567,7 @@ extern "C"  int32_t TypeBuilder_get_next_table_index_m1415870184 (TypeBuilder_t3
 extern "C"  bool TypeBuilder_get_IsCompilerContext_m3623403919 (TypeBuilder_t3308873219 * __this, const MethodInfo* method)
 {
 	{
-		ModuleBuilder_t4156028127 * L_0 = __this->get_pmodule_18();
+		ModuleBuilder_t4156028127 * L_0 = __this->get_pmodule_17();
 		NullCheck(L_0);
 		AssemblyBuilder_t1646117627 * L_1 = L_0->get_assemblyb_12();
 		NullCheck(L_1);
@@ -16579,7 +16579,7 @@ extern "C"  bool TypeBuilder_get_IsCompilerContext_m3623403919 (TypeBuilder_t330
 extern "C"  bool TypeBuilder_get_is_created_m736553860 (TypeBuilder_t3308873219 * __this, const MethodInfo* method)
 {
 	{
-		Type_t * L_0 = __this->get_created_20();
+		Type_t * L_0 = __this->get_created_19();
 		return (bool)((((int32_t)((((Il2CppObject*)(Type_t *)L_0) == ((Il2CppObject*)(Il2CppObject *)NULL))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
@@ -16714,7 +16714,7 @@ IL_0009:
 		}
 	}
 	{
-		Type_t * L_3 = __this->get_parent_10();
+		Type_t * L_3 = __this->get_parent_9();
 		if (!L_3)
 		{
 			goto IL_003d;
@@ -16729,7 +16729,7 @@ IL_0009:
 	}
 	{
 		Type_t * L_5 = ___c0;
-		Type_t * L_6 = __this->get_parent_10();
+		Type_t * L_6 = __this->get_parent_9();
 		NullCheck(L_5);
 		bool L_7 = VirtFuncInvoker1< bool, Type_t * >::Invoke(40 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_5, L_6);
 		if (!L_7)
@@ -16743,7 +16743,7 @@ IL_0009:
 
 IL_003d:
 	{
-		TypeU5BU5D_t1664964607* L_8 = __this->get_interfaces_12();
+		TypeU5BU5D_t1664964607* L_8 = __this->get_interfaces_11();
 		if (L_8)
 		{
 			goto IL_004a;
@@ -16755,7 +16755,7 @@ IL_003d:
 
 IL_004a:
 	{
-		TypeU5BU5D_t1664964607* L_9 = __this->get_interfaces_12();
+		TypeU5BU5D_t1664964607* L_9 = __this->get_interfaces_11();
 		V_1 = L_9;
 		V_2 = 0;
 		goto IL_006e;
@@ -16811,7 +16811,7 @@ IL_006e:
 
 IL_0084:
 	{
-		Type_t * L_21 = __this->get_parent_10();
+		Type_t * L_21 = __this->get_parent_9();
 		if (L_21)
 		{
 			goto IL_009d;
@@ -16827,7 +16827,7 @@ IL_0084:
 IL_009d:
 	{
 		Type_t * L_24 = ___c0;
-		Type_t * L_25 = __this->get_parent_10();
+		Type_t * L_25 = __this->get_parent_9();
 		NullCheck(L_24);
 		bool L_26 = VirtFuncInvoker1< bool, Type_t * >::Invoke(40 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_24, L_25);
 		return L_26;
@@ -16846,7 +16846,7 @@ extern "C"  TypeU5BU5D_t1664964607* TypeBuilder_GetGenericArguments_m3241780469 
 	}
 	TypeU5BU5D_t1664964607* V_0 = NULL;
 	{
-		GenericTypeParameterBuilderU5BU5D_t358971386* L_0 = __this->get_generic_params_19();
+		GenericTypeParameterBuilderU5BU5D_t358971386* L_0 = __this->get_generic_params_18();
 		if (L_0)
 		{
 			goto IL_000d;
@@ -16858,10 +16858,10 @@ extern "C"  TypeU5BU5D_t1664964607* TypeBuilder_GetGenericArguments_m3241780469 
 
 IL_000d:
 	{
-		GenericTypeParameterBuilderU5BU5D_t358971386* L_1 = __this->get_generic_params_19();
+		GenericTypeParameterBuilderU5BU5D_t358971386* L_1 = __this->get_generic_params_18();
 		NullCheck(L_1);
 		V_0 = ((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length))))));
-		GenericTypeParameterBuilderU5BU5D_t358971386* L_2 = __this->get_generic_params_19();
+		GenericTypeParameterBuilderU5BU5D_t358971386* L_2 = __this->get_generic_params_18();
 		TypeU5BU5D_t1664964607* L_3 = V_0;
 		NullCheck((Il2CppArray *)(Il2CppArray *)L_2);
 		Array_CopyTo_m4061033315((Il2CppArray *)(Il2CppArray *)L_2, (Il2CppArray *)(Il2CppArray *)L_3, 0, /*hidden argument*/NULL);
@@ -16882,7 +16882,7 @@ extern "C"  Type_t * TypeBuilder_GetGenericTypeDefinition_m3813000816 (TypeBuild
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		GenericTypeParameterBuilderU5BU5D_t358971386* L_0 = __this->get_generic_params_19();
+		GenericTypeParameterBuilderU5BU5D_t358971386* L_0 = __this->get_generic_params_18();
 		if (L_0)
 		{
 			goto IL_0016;
@@ -16903,7 +16903,7 @@ IL_0016:
 extern "C"  bool TypeBuilder_get_ContainsGenericParameters_m493137229 (TypeBuilder_t3308873219 * __this, const MethodInfo* method)
 {
 	{
-		GenericTypeParameterBuilderU5BU5D_t358971386* L_0 = __this->get_generic_params_19();
+		GenericTypeParameterBuilderU5BU5D_t358971386* L_0 = __this->get_generic_params_18();
 		return (bool)((((int32_t)((((Il2CppObject*)(GenericTypeParameterBuilderU5BU5D_t358971386*)L_0) == ((Il2CppObject*)(Il2CppObject *)NULL))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
@@ -16918,7 +16918,7 @@ extern "C"  bool TypeBuilder_get_IsGenericParameter_m2604628295 (TypeBuilder_t33
 extern "C"  bool TypeBuilder_get_IsGenericTypeDefinition_m1652226431 (TypeBuilder_t3308873219 * __this, const MethodInfo* method)
 {
 	{
-		GenericTypeParameterBuilderU5BU5D_t358971386* L_0 = __this->get_generic_params_19();
+		GenericTypeParameterBuilderU5BU5D_t358971386* L_0 = __this->get_generic_params_18();
 		return (bool)((((int32_t)((((Il2CppObject*)(GenericTypeParameterBuilderU5BU5D_t358971386*)L_0) == ((Il2CppObject*)(Il2CppObject *)NULL))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
@@ -18349,7 +18349,7 @@ extern "C"  TypeU5BU5D_t1664964607* MethodInfo_GetGenericArguments_m3393347888 (
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		TypeU5BU5D_t1664964607* L_0 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_3();
+		TypeU5BU5D_t1664964607* L_0 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_2();
 		return L_0;
 	}
 }
@@ -22219,7 +22219,7 @@ extern "C"  TypeU5BU5D_t1664964607* MonoProperty_GetOptionalCustomModifiers_m382
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		TypeU5BU5D_t1664964607* L_2 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_3();
+		TypeU5BU5D_t1664964607* L_2 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_2();
 		return L_2;
 	}
 
@@ -22252,7 +22252,7 @@ extern "C"  TypeU5BU5D_t1664964607* MonoProperty_GetRequiredCustomModifiers_m576
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		TypeU5BU5D_t1664964607* L_2 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_3();
+		TypeU5BU5D_t1664964607* L_2 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_2();
 		return L_2;
 	}
 
@@ -23028,7 +23028,7 @@ extern "C"  TypeU5BU5D_t1664964607* PropertyInfo_GetOptionalCustomModifiers_m747
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		TypeU5BU5D_t1664964607* L_0 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_3();
+		TypeU5BU5D_t1664964607* L_0 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_2();
 		return L_0;
 	}
 }
@@ -23045,7 +23045,7 @@ extern "C"  TypeU5BU5D_t1664964607* PropertyInfo_GetRequiredCustomModifiers_m229
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		TypeU5BU5D_t1664964607* L_0 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_3();
+		TypeU5BU5D_t1664964607* L_0 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_2();
 		return L_0;
 	}
 }

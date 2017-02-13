@@ -10,10 +10,14 @@
 
 @implementation IOSPluginTest
 
+-(int)squareThisNumber:(int)number {
+    return number * number;
+}
+
 @end
 
 int square(int x) {
-    return x * x;
+    return [[[IOSPluginTest alloc] init] squareThisNumber:x];
 }
 
 void setCubeCallback(int x, CALCULATION_CALLBACK callback) {
