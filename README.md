@@ -11,4 +11,8 @@ Loosely following the instructions [here](http://stackoverflow.com/a/14885024/57
 6. Build, deploy, and run the project on the iPhone. I needed to fix the signing team first.  
 
 The commit [afdf67](https://github.com/dumbledad/GreenBox/tree/afdf67c5f2af84e2d9e51a637641dd1f600a8cb7) contains just one simple call from the Unity C# script into the 
-iOS native C++ code. The latest commit incudes a callback from the iOS native C++ code into the Unity C# script.
+iOS native C++ code. 
+
+Commit [c99815](https://github.com/dumbledad/GreenBox/tree/c998156626f1e0fe23ca80a4c0855ddd7f15dfbf) incudes a callback from the iOS native C++ code into the Unity C# script.
+
+The latest code goes back to the simple call (without a callback) but the call into the iOS native C++ calls further into an instance method on an Objective-C object.
