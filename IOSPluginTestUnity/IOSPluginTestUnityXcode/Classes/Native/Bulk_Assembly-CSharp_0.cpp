@@ -97,30 +97,54 @@ extern "C"  void CubeScript_Update_m2971544568 (CubeScript_t3554149110 * __this,
 		bool L_1 = Calculations_get_isSquared_m3690501061(L_0, /*hidden argument*/NULL);
 		if (!L_1)
 		{
-			goto IL_002a;
+			goto IL_0054;
 		}
 	}
 	{
-		Renderer_t257310565 * L_2 = Component_GetComponent_TisRenderer_t257310565_m772028041(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t257310565_m772028041_MethodInfo_var);
+		Calculations_t3126126952 * L_2 = __this->get_calculations_2();
 		NullCheck(L_2);
-		Material_t193706927 * L_3 = Renderer_get_material_m2553789785(L_2, /*hidden argument*/NULL);
-		Color_t2020392075  L_4 = Color_get_green_m2671273823(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_3);
-		Material_set_color_m577844242(L_3, L_4, /*hidden argument*/NULL);
-		goto IL_003f;
+		bool L_3 = Calculations_get_isCubed_m710668369(L_2, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_003a;
+		}
 	}
-
-IL_002a:
 	{
-		Renderer_t257310565 * L_5 = Component_GetComponent_TisRenderer_t257310565_m772028041(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t257310565_m772028041_MethodInfo_var);
+		Renderer_t257310565 * L_4 = Component_GetComponent_TisRenderer_t257310565_m772028041(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t257310565_m772028041_MethodInfo_var);
+		NullCheck(L_4);
+		Material_t193706927 * L_5 = Renderer_get_material_m2553789785(L_4, /*hidden argument*/NULL);
+		Color_t2020392075  L_6 = Color_get_magenta_m3193089961(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_5);
-		Material_t193706927 * L_6 = Renderer_get_material_m2553789785(L_5, /*hidden argument*/NULL);
-		Color_t2020392075  L_7 = Color_get_black_m2650940523(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_6);
-		Material_set_color_m577844242(L_6, L_7, /*hidden argument*/NULL);
+		Material_set_color_m577844242(L_5, L_6, /*hidden argument*/NULL);
+		goto IL_004f;
 	}
 
-IL_003f:
+IL_003a:
+	{
+		Renderer_t257310565 * L_7 = Component_GetComponent_TisRenderer_t257310565_m772028041(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t257310565_m772028041_MethodInfo_var);
+		NullCheck(L_7);
+		Material_t193706927 * L_8 = Renderer_get_material_m2553789785(L_7, /*hidden argument*/NULL);
+		Color_t2020392075  L_9 = Color_get_green_m2671273823(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		Material_set_color_m577844242(L_8, L_9, /*hidden argument*/NULL);
+	}
+
+IL_004f:
+	{
+		goto IL_0069;
+	}
+
+IL_0054:
+	{
+		Renderer_t257310565 * L_10 = Component_GetComponent_TisRenderer_t257310565_m772028041(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t257310565_m772028041_MethodInfo_var);
+		NullCheck(L_10);
+		Material_t193706927 * L_11 = Renderer_get_material_m2553789785(L_10, /*hidden argument*/NULL);
+		Color_t2020392075  L_12 = Color_get_black_m2650940523(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_11);
+		Material_set_color_m577844242(L_11, L_12, /*hidden argument*/NULL);
+	}
+
+IL_0069:
 	{
 		return;
 	}

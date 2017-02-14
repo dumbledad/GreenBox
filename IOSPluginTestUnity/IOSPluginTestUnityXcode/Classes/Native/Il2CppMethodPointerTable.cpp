@@ -7269,9 +7269,7 @@ extern "C" void AesTransform_ECB_m1505875511 ();
 extern "C" void AesTransform_SubByte_m3508318874 ();
 extern "C" void AesTransform_Encrypt128_m617981965 ();
 extern "C" void AesTransform_Decrypt128_m3067379519 ();
-extern "C" void Calculations__ctor_m2917165631 ();
-extern "C" void Calculations_get_isSquared_m3690501061 ();
-extern "C" void Calculations_Init_m1952284929 ();
+extern "C" void MonoPInvokeCallbackAttribute__ctor_m1298113763 ();
 extern "C" void AnimationCurve__ctor_m2814448007 ();
 extern "C" void AnimationCurve__ctor_m3707994114 ();
 extern "C" void AnimationCurve_Cleanup_m2190142678 ();
@@ -7388,6 +7386,7 @@ extern "C" void Color_GetHashCode_m3182525367_AdjustorThunk ();
 extern "C" void Color_Equals_m661618137_AdjustorThunk ();
 extern "C" void Color_get_green_m2671273823 ();
 extern "C" void Color_get_black_m2650940523 ();
+extern "C" void Color_get_magenta_m3193089961 ();
 extern "C" void Color_op_Implicit_m1067945802 ();
 extern "C" void Component__ctor_m205306948 ();
 extern "C" void Component_get_transform_m2697483695 ();
@@ -8018,10 +8017,22 @@ extern "C" void TypeInferenceRuleAttribute__ctor_m470566337 ();
 extern "C" void TypeInferenceRuleAttribute_ToString_m3941510216 ();
 extern "C" void WebRequestUtils_RedirectTo_m3803295888 ();
 extern "C" void WebRequestUtils__cctor_m893658947 ();
+extern "C" void Calculations__ctor_m2917165631 ();
+extern "C" void Calculations_square_m2997411793 ();
+extern "C" void Calculations_setCubeCallback_m256851688 ();
+extern "C" void Calculations_get_isSquared_m3690501061 ();
+extern "C" void Calculations_get_isCubed_m710668369 ();
+extern "C" void Calculations_Init_m1952284929 ();
+extern "C" void Calculations_calculationCallback_m1912372092 ();
+extern "C" void Calculations__cctor_m1648947134 ();
+extern "C" void CalculationCallback__ctor_m1712875560 ();
+extern "C" void CalculationCallback_Invoke_m293114517 ();
+extern "C" void CalculationCallback_BeginInvoke_m2533573398 ();
+extern "C" void CalculationCallback_EndInvoke_m3028523018 ();
 extern "C" void CubeScript__ctor_m853278953 ();
 extern "C" void CubeScript_Start_m3582001249 ();
 extern "C" void CubeScript_Update_m2971544568 ();
-extern const Il2CppMethodPointer g_MethodPointers[8010] = 
+extern const Il2CppMethodPointer g_MethodPointers[8021] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -15281,9 +15292,7 @@ extern const Il2CppMethodPointer g_MethodPointers[8010] =
 	AesTransform_SubByte_m3508318874,
 	AesTransform_Encrypt128_m617981965,
 	AesTransform_Decrypt128_m3067379519,
-	Calculations__ctor_m2917165631,
-	Calculations_get_isSquared_m3690501061,
-	Calculations_Init_m1952284929,
+	MonoPInvokeCallbackAttribute__ctor_m1298113763,
 	AnimationCurve__ctor_m2814448007,
 	AnimationCurve__ctor_m3707994114,
 	AnimationCurve_Cleanup_m2190142678,
@@ -15400,6 +15409,7 @@ extern const Il2CppMethodPointer g_MethodPointers[8010] =
 	Color_Equals_m661618137_AdjustorThunk,
 	Color_get_green_m2671273823,
 	Color_get_black_m2650940523,
+	Color_get_magenta_m3193089961,
 	Color_op_Implicit_m1067945802,
 	Component__ctor_m205306948,
 	Component_get_transform_m2697483695,
@@ -16030,6 +16040,18 @@ extern const Il2CppMethodPointer g_MethodPointers[8010] =
 	TypeInferenceRuleAttribute_ToString_m3941510216,
 	WebRequestUtils_RedirectTo_m3803295888,
 	WebRequestUtils__cctor_m893658947,
+	Calculations__ctor_m2917165631,
+	Calculations_square_m2997411793,
+	Calculations_setCubeCallback_m256851688,
+	Calculations_get_isSquared_m3690501061,
+	Calculations_get_isCubed_m710668369,
+	Calculations_Init_m1952284929,
+	Calculations_calculationCallback_m1912372092,
+	Calculations__cctor_m1648947134,
+	CalculationCallback__ctor_m1712875560,
+	CalculationCallback_Invoke_m293114517,
+	CalculationCallback_BeginInvoke_m2533573398,
+	CalculationCallback_EndInvoke_m3028523018,
 	CubeScript__ctor_m853278953,
 	CubeScript_Start_m3582001249,
 	CubeScript_Update_m2971544568,

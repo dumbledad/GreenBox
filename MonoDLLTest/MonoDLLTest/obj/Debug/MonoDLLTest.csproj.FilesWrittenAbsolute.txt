@@ -2,3 +2,4 @@
 /Users/timregan/Documents/Source/GreenBox/MonoDLLTest/MonoDLLTest/bin/Debug/MonoDLLTest.dll
 /Users/timregan/Documents/Source/GreenBox/MonoDLLTest/MonoDLLTest/obj/Debug/MonoDLLTest.dll
 /Users/timregan/Documents/Source/GreenBox/MonoDLLTest/MonoDLLTest/obj/Debug/MonoDLLTest.dll.mdb
+/Users/timregan/Documents/Source/GreenBox/MonoDLLTest/MonoDLLTest/bin/Debug/UnityEngine.dll

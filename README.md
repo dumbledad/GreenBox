@@ -22,4 +22,8 @@ the call from the Unity C# script into the iOS native C++ then calls further int
 The code in [05f4e4](https://github.com/dumbledad/GreenBox/tree/05f4e47892a628401cbd8ccf308346d1bde9a7d4) adds a callback from the Objective-C back into the 
 Unity C# script.
 
-The latest code is a very simple call from a Unity C# script into a Mono C# DLL.
+For commit [b4f22f](https://github.com/dumbledad/GreenBox/tree/b4f22f2323036d5a8bc185999b6224d04ca519e8) I am back to a very simple call from a Unity C# script 
+but this time it is into a Mono C# DLL.
+
+And the latest code follows this approach with a Unity C# script calling into a Mono C# DLL which in turn calls into the native iOS static library, including 
+a callback from the native iOS static library to the Mono C# DLL.

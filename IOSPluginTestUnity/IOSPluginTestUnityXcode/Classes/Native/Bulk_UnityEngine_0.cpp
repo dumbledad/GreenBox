@@ -13,6 +13,10 @@
 #include <limits>
 #include <assert.h>
 
+// AOT.MonoPInvokeCallbackAttribute
+struct MonoPInvokeCallbackAttribute_t2934651840;
+// System.Type
+struct Type_t;
 // UnityEngine.AnimationCurve
 struct AnimationCurve_t3306541151;
 // UnityEngine.Keyframe[]
@@ -41,8 +45,6 @@ struct Object_t1021602117;
 struct ObjectU5BU5D_t4217747464;
 // UnityEngine.AsyncOperation
 struct AsyncOperation_t3814632279;
-// System.Type
-struct Type_t;
 // System.Type[]
 struct TypeU5BU5D_t1664964607;
 // UnityEngine.DefaultExecutionOrder
@@ -181,9 +183,13 @@ struct RPC_t3323229423;
 #include "mscorlib_System_Array3829468939.h"
 #include "UnityEngine_U3CModuleU3E3783534214.h"
 #include "UnityEngine_U3CModuleU3E3783534214MethodDeclarations.h"
+#include "UnityEngine_AOT_MonoPInvokeCallbackAttribute2934651840.h"
+#include "UnityEngine_AOT_MonoPInvokeCallbackAttribute2934651840MethodDeclarations.h"
+#include "mscorlib_System_Type1303803226.h"
+#include "mscorlib_System_Void1841601450.h"
+#include "mscorlib_System_Attribute542643598MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_AnimationCurve3306541151.h"
 #include "UnityEngine_UnityEngine_AnimationCurve3306541151MethodDeclarations.h"
-#include "mscorlib_System_Void1841601450.h"
 #include "UnityEngine_ArrayTypes.h"
 #include "UnityEngine_UnityEngine_Keyframe1449471340.h"
 #include "mscorlib_System_Object2689449295MethodDeclarations.h"
@@ -203,7 +209,6 @@ struct RPC_t3323229423;
 #include "mscorlib_System_AsyncCallback163412349.h"
 #include "UnityEngine_UnityEngine_AssemblyIsEditorAssembly1557026495.h"
 #include "UnityEngine_UnityEngine_AssemblyIsEditorAssembly1557026495MethodDeclarations.h"
-#include "mscorlib_System_Attribute542643598MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_AssetBundle2054978754.h"
 #include "UnityEngine_UnityEngine_AssetBundle2054978754MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_AssetBundleCreateRequest1038783543.h"
@@ -218,7 +223,6 @@ struct RPC_t3323229423;
 #include "mscorlib_System_Int322071877448.h"
 #include "UnityEngine_UnityEngine_AttributeHelperEngine958797062.h"
 #include "UnityEngine_UnityEngine_AttributeHelperEngine958797062MethodDeclarations.h"
-#include "mscorlib_System_Type1303803226.h"
 #include "System_System_Collections_Generic_Stack_1_gen2391531380MethodDeclarations.h"
 #include "mscorlib_System_Type1303803226MethodDeclarations.h"
 #include "System_System_Collections_Generic_Stack_1_gen2391531380.h"
@@ -433,8 +437,6 @@ struct RPC_t3323229423;
 #include "UnityEngine_UnityEngine_Rigidbody4233889191MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_RPC3323229423.h"
 #include "UnityEngine_UnityEngine_RPC3323229423MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_SceneManagement_LoadSceneM2981886439.h"
-#include "UnityEngine_UnityEngine_SceneManagement_LoadSceneM2981886439MethodDeclarations.h"
 
 // T UnityEngine.AttributeHelperEngine::GetCustomAttributeOfType<System.Object>(System.Type)
 extern "C"  Il2CppObject * AttributeHelperEngine_GetCustomAttributeOfType_TisIl2CppObject_m581732473_gshared (Il2CppObject * __this /* static, unused */, Type_t * ___klass0, const MethodInfo* method);
@@ -446,6 +448,14 @@ extern "C"  Il2CppObject * AttributeHelperEngine_GetCustomAttributeOfType_TisIl2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void AOT.MonoPInvokeCallbackAttribute::.ctor(System.Type)
+extern "C"  void MonoPInvokeCallbackAttribute__ctor_m1298113763 (MonoPInvokeCallbackAttribute_t2934651840 * __this, Type_t * ___type0, const MethodInfo* method)
+{
+	{
+		Attribute__ctor_m1730479323(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
 // System.Void UnityEngine.AnimationCurve::.ctor(UnityEngine.Keyframe[])
 extern "C"  void AnimationCurve__ctor_m2814448007 (AnimationCurve_t3306541151 * __this, KeyframeU5BU5D_t449065829* ___keys0, const MethodInfo* method)
 {
@@ -2889,6 +2899,25 @@ extern "C"  Color_t2020392075  Color_get_black_m2650940523 (Il2CppObject * __thi
 		Color_t2020392075  L_0;
 		memset(&L_0, 0, sizeof(L_0));
 		Color__ctor_m1909920690(&L_0, (0.0f), (0.0f), (0.0f), (1.0f), /*hidden argument*/NULL);
+		V_0 = L_0;
+		goto IL_0020;
+	}
+
+IL_0020:
+	{
+		Color_t2020392075  L_1 = V_0;
+		return L_1;
+	}
+}
+// UnityEngine.Color UnityEngine.Color::get_magenta()
+extern "C"  Color_t2020392075  Color_get_magenta_m3193089961 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	Color_t2020392075  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Color_t2020392075  L_0;
+		memset(&L_0, 0, sizeof(L_0));
+		Color__ctor_m1909920690(&L_0, (1.0f), (0.0f), (1.0f), (1.0f), /*hidden argument*/NULL);
 		V_0 = L_0;
 		goto IL_0020;
 	}

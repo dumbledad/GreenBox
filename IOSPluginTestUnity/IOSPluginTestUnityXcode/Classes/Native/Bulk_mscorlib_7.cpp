@@ -9447,26 +9447,26 @@ extern "C"  void Type__cctor_m3101966940 (Il2CppObject * __this /* static, unuse
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->set_Delimiter_1(((int32_t)46));
-		((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->set_EmptyTypes_2(((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)0)));
+		((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->set_Delimiter_2(((int32_t)46));
+		((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->set_EmptyTypes_3(((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)0)));
 		IntPtr_t L_0;
 		L_0.set_m_value_0((void*)(void*)Type_FilterAttribute_impl_m2792336386_MethodInfo_var);
 		MemberFilter_t3405857066 * L_1 = (MemberFilter_t3405857066 *)il2cpp_codegen_object_new(MemberFilter_t3405857066_il2cpp_TypeInfo_var);
 		MemberFilter__ctor_m1775909550(L_1, NULL, L_0, /*hidden argument*/NULL);
-		((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->set_FilterAttribute_3(L_1);
+		((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->set_FilterAttribute_4(L_1);
 		IntPtr_t L_2;
 		L_2.set_m_value_0((void*)(void*)Type_FilterName_impl_m2806300061_MethodInfo_var);
 		MemberFilter_t3405857066 * L_3 = (MemberFilter_t3405857066 *)il2cpp_codegen_object_new(MemberFilter_t3405857066_il2cpp_TypeInfo_var);
 		MemberFilter__ctor_m1775909550(L_3, NULL, L_2, /*hidden argument*/NULL);
-		((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->set_FilterName_4(L_3);
+		((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->set_FilterName_5(L_3);
 		IntPtr_t L_4;
 		L_4.set_m_value_0((void*)(void*)Type_FilterNameIgnoreCase_impl_m296452813_MethodInfo_var);
 		MemberFilter_t3405857066 * L_5 = (MemberFilter_t3405857066 *)il2cpp_codegen_object_new(MemberFilter_t3405857066_il2cpp_TypeInfo_var);
 		MemberFilter__ctor_m1775909550(L_5, NULL, L_4, /*hidden argument*/NULL);
-		((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->set_FilterNameIgnoreCase_5(L_5);
+		((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->set_FilterNameIgnoreCase_6(L_5);
 		IL2CPP_RUNTIME_CLASS_INIT(Missing_t1033855606_il2cpp_TypeInfo_var);
 		Missing_t1033855606 * L_6 = ((Missing_t1033855606_StaticFields*)Missing_t1033855606_il2cpp_TypeInfo_var->static_fields)->get_Value_0();
-		((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->set_Missing_6(L_6);
+		((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->set_Missing_7(L_6);
 		return;
 	}
 }
@@ -10628,7 +10628,7 @@ extern "C"  int32_t Type_GetHashCode_m1150382148 (Type_t * __this, const MethodI
 
 IL_001b:
 	{
-		RuntimeTypeHandle_t2330101084 * L_5 = __this->get_address_of__impl_0();
+		RuntimeTypeHandle_t2330101084 * L_5 = __this->get_address_of__impl_1();
 		IntPtr_t L_6 = RuntimeTypeHandle_get_Value_m2239757882(L_5, /*hidden argument*/NULL);
 		int32_t L_7 = IntPtr_op_Explicit_m1458664696(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 		return L_7;
@@ -11192,7 +11192,7 @@ extern "C"  bool Type_get_IsSystemType_m2276830817 (Type_t * __this, const Metho
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		RuntimeTypeHandle_t2330101084 * L_0 = __this->get_address_of__impl_0();
+		RuntimeTypeHandle_t2330101084 * L_0 = __this->get_address_of__impl_1();
 		IntPtr_t L_1 = RuntimeTypeHandle_get_Value_m2239757882(L_0, /*hidden argument*/NULL);
 		IntPtr_t L_2 = ((IntPtr_t_StaticFields*)IntPtr_t_il2cpp_TypeInfo_var->static_fields)->get_Zero_1();
 		bool L_3 = IntPtr_op_Inequality_m3044532593(NULL /*static, unused*/, L_1, L_2, /*hidden argument*/NULL);

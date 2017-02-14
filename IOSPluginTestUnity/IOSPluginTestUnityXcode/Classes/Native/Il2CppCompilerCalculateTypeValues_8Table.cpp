@@ -138,7 +138,7 @@ extern const int32_t g_FieldOffsetTable802[2] =
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize803 = { sizeof (MonoType_t), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable803[1] = 
 {
-	MonoType_t::get_offset_of_type_info_7(),
+	MonoType_t::get_offset_of_type_info_8(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize804 = { sizeof (MulticastNotSupportedException_t1815247018), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize805 = { sizeof (NonSerializedAttribute_t399263003), -1, 0, 0 };

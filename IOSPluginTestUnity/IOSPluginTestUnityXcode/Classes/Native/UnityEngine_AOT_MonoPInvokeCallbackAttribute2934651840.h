@@ -11,6 +11,7 @@
 #include <stdint.h>
 
 
+#include "mscorlib_System_Attribute542643598.h"
 
 #ifdef __clang__
 #pragma clang diagnostic push
@@ -18,8 +19,8 @@
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// <Module>
-struct  U3CModuleU3E_t3783534219 
+// AOT.MonoPInvokeCallbackAttribute
+struct  MonoPInvokeCallbackAttribute_t2934651840  : public Attribute_t542643598
 {
 public:
 

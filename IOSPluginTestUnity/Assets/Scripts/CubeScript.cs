@@ -11,7 +11,11 @@ public class CubeScript : MonoBehaviour {
 	
 	void Update () {
 		if (calculations.isSquared) {
-			GetComponent<Renderer>().material.color = Color.green;
+			if (calculations.isCubed) {
+				GetComponent<Renderer>().material.color = Color.magenta;
+			} else {
+				GetComponent<Renderer>().material.color = Color.green;
+			}
 		} else {
 			GetComponent<Renderer>().material.color = Color.black;
 		}
