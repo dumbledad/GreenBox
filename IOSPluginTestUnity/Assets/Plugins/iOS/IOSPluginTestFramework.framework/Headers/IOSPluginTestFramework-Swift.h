@@ -123,7 +123,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_CLASS("_TtC22IOSPluginTestFramework7Helpers")
 @interface Helpers : NSObject
-- (NSInteger)squareWithNumber:(NSInteger)number;
+- (int32_t)squareWithNumber:(int32_t)number;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
