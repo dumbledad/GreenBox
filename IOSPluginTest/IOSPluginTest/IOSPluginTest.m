@@ -8,21 +8,28 @@
 
 #import "IOSPluginTest.h"
 
+int square(int x) {
+    return [[[IOSPluginTest alloc] init] squareThisNumber:x];
+}
+
+void setCubeCallback(int x, CALCULATION_CALLBACK callback) {
+    [[[IOSPluginTest alloc] init] cubeThisNumber:x andCallbackOn:callback];
+}
+
+
 @implementation IOSPluginTest
 
 -(int)squareThisNumber:(int)number {
     return number * number;
 }
 
-@end
-
-int square(int x) {
-    return [[[IOSPluginTest alloc] init] squareThisNumber:x];
-}
-
-void setCubeCallback(int x, CALCULATION_CALLBACK callback) {
-    int result = x * x * x;
+-(void)cubeThisNumber:(int)number andCallbackOn:(CALCULATION_CALLBACK)callback {
+    int result = number * number * number;
     if (callback != nil) {
         callback(result);
     }
 }
+
+@end
+
+

@@ -8,12 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface IOSPluginTest : NSObject
-
--(int)squareThisNumber:(int)number;
-
-@end
-
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -26,3 +20,13 @@ extern "C" {
 #ifdef __cplusplus
 }
 #endif
+
+
+@interface IOSPluginTest : NSObject
+
+-(int)squareThisNumber:(int)number;
+-(void)cubeThisNumber:(int)number andCallbackOn:(CALCULATION_CALLBACK)callback;
+
+@end
+
+
