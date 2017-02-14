@@ -1,0 +1,10 @@
+framework module IOSPluginTestFramework {
+  umbrella header "IOSPluginTestFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module IOSPluginTestFramework.Swift {
+    header "IOSPluginTestFramework-Swift.h"
+}

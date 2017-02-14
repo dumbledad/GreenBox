@@ -7,6 +7,8 @@
 //
 
 #import "IOSPluginTest.h"
+//#import "IOSPluginTestFramework-Swift.h"
+@import IOSPluginTestFramework;
 
 @implementation IOSPluginTest
 
@@ -17,7 +19,12 @@
 @end
 
 int square(int x) {
-    return [[[IOSPluginTest alloc] init] squareThisNumber:x];
+    //return [[[IOSPluginTest alloc] init] squareThisNumber:x];
+    //return [[[SwiftHelperClass alloc] init] squareThisNumber:x];
+    //return x * x;
+    Helpers *helper = [[Helpers alloc] init];
+    
+    return (int)[helper squareWithNumber: x];
 }
 
 void setCubeCallback(int x, CALCULATION_CALLBACK callback) {
