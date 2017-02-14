@@ -26,8 +26,7 @@ extern "C" void DelegatePInvokeWrapper_AudioConfigurationChangeHandler_t37437530
 extern "C" void DelegatePInvokeWrapper_StateChanged_t2480912210 ();
 extern "C" void DelegatePInvokeWrapper_DisplaysUpdatedDelegate_t3423469815 ();
 extern "C" void DelegatePInvokeWrapper_UpdatedEventHandler_t3033456180 ();
-extern "C" void DelegatePInvokeWrapper_CalculationCallback_t624124251 ();
-extern const Il2CppMethodPointer g_DelegateWrappersManagedToNative[16] = 
+extern const Il2CppMethodPointer g_DelegateWrappersManagedToNative[15] = 
 {
 	DelegatePInvokeWrapper_AppDomainInitializer_t3898244613,
 	DelegatePInvokeWrapper_Swapper_t2637371637,
@@ -44,5 +43,4 @@ extern const Il2CppMethodPointer g_DelegateWrappersManagedToNative[16] =
 	DelegatePInvokeWrapper_StateChanged_t2480912210,
 	DelegatePInvokeWrapper_DisplaysUpdatedDelegate_t3423469815,
 	DelegatePInvokeWrapper_UpdatedEventHandler_t3033456180,
-	DelegatePInvokeWrapper_CalculationCallback_t624124251,
 };

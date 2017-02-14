@@ -925,8 +925,8 @@ extern const int32_t g_FieldOffsetTable281[11] =
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize282 = { sizeof (EnumBuilder_t2808714468), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable282[2] = 
 {
-	EnumBuilder_t2808714468::get_offset_of__tb_8(),
-	EnumBuilder_t2808714468::get_offset_of__underlyingType_9(),
+	EnumBuilder_t2808714468::get_offset_of__tb_7(),
+	EnumBuilder_t2808714468::get_offset_of__underlyingType_8(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize283 = { sizeof (FieldBuilder_t2784804005), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable283[5] = 
@@ -940,10 +940,10 @@ extern const int32_t g_FieldOffsetTable283[5] =
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize284 = { sizeof (GenericTypeParameterBuilder_t1370236603), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable284[4] = 
 {
-	GenericTypeParameterBuilder_t1370236603::get_offset_of_tbuilder_8(),
-	GenericTypeParameterBuilder_t1370236603::get_offset_of_mbuilder_9(),
-	GenericTypeParameterBuilder_t1370236603::get_offset_of_name_10(),
-	GenericTypeParameterBuilder_t1370236603::get_offset_of_base_type_11(),
+	GenericTypeParameterBuilder_t1370236603::get_offset_of_tbuilder_7(),
+	GenericTypeParameterBuilder_t1370236603::get_offset_of_mbuilder_8(),
+	GenericTypeParameterBuilder_t1370236603::get_offset_of_name_9(),
+	GenericTypeParameterBuilder_t1370236603::get_offset_of_base_type_10(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize285 = { sizeof (ILTokenInfo_t149559338)+ sizeof (Il2CppObject), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable285[2] = 
@@ -1309,22 +1309,22 @@ extern const int32_t g_FieldOffsetTable298[30] =
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize299 = { sizeof (TypeBuilder_t3308873219), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable299[16] = 
 {
-	TypeBuilder_t3308873219::get_offset_of_tname_8(),
-	TypeBuilder_t3308873219::get_offset_of_nspace_9(),
-	TypeBuilder_t3308873219::get_offset_of_parent_10(),
-	TypeBuilder_t3308873219::get_offset_of_nesting_type_11(),
-	TypeBuilder_t3308873219::get_offset_of_interfaces_12(),
-	TypeBuilder_t3308873219::get_offset_of_num_methods_13(),
-	TypeBuilder_t3308873219::get_offset_of_methods_14(),
-	TypeBuilder_t3308873219::get_offset_of_ctors_15(),
-	TypeBuilder_t3308873219::get_offset_of_fields_16(),
-	TypeBuilder_t3308873219::get_offset_of_attrs_17(),
-	TypeBuilder_t3308873219::get_offset_of_pmodule_18(),
-	TypeBuilder_t3308873219::get_offset_of_generic_params_19(),
-	TypeBuilder_t3308873219::get_offset_of_created_20(),
-	TypeBuilder_t3308873219::get_offset_of_fullname_21(),
-	TypeBuilder_t3308873219::get_offset_of_createTypeCalled_22(),
-	TypeBuilder_t3308873219::get_offset_of_underlying_type_23(),
+	TypeBuilder_t3308873219::get_offset_of_tname_7(),
+	TypeBuilder_t3308873219::get_offset_of_nspace_8(),
+	TypeBuilder_t3308873219::get_offset_of_parent_9(),
+	TypeBuilder_t3308873219::get_offset_of_nesting_type_10(),
+	TypeBuilder_t3308873219::get_offset_of_interfaces_11(),
+	TypeBuilder_t3308873219::get_offset_of_num_methods_12(),
+	TypeBuilder_t3308873219::get_offset_of_methods_13(),
+	TypeBuilder_t3308873219::get_offset_of_ctors_14(),
+	TypeBuilder_t3308873219::get_offset_of_fields_15(),
+	TypeBuilder_t3308873219::get_offset_of_attrs_16(),
+	TypeBuilder_t3308873219::get_offset_of_pmodule_17(),
+	TypeBuilder_t3308873219::get_offset_of_generic_params_18(),
+	TypeBuilder_t3308873219::get_offset_of_created_19(),
+	TypeBuilder_t3308873219::get_offset_of_fullname_20(),
+	TypeBuilder_t3308873219::get_offset_of_createTypeCalled_21(),
+	TypeBuilder_t3308873219::get_offset_of_underlying_type_22(),
 };
 #ifdef __clang__
 #pragma clang diagnostic pop

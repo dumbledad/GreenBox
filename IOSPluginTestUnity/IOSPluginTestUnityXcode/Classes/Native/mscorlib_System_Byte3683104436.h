@@ -24,15 +24,15 @@ struct  Byte_t3683104436
 {
 public:
 	// System.Byte System.Byte::m_value
-	uint8_t ___m_value_2;
+	uint8_t ___m_value_0;
 
 public:
-	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Byte_t3683104436, ___m_value_2)); }
-	inline uint8_t get_m_value_2() const { return ___m_value_2; }
-	inline uint8_t* get_address_of_m_value_2() { return &___m_value_2; }
-	inline void set_m_value_2(uint8_t value)
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(Byte_t3683104436, ___m_value_0)); }
+	inline uint8_t get_m_value_0() const { return ___m_value_0; }
+	inline uint8_t* get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(uint8_t value)
 	{
-		___m_value_2 = value;
+		___m_value_0 = value;
 	}
 };
 

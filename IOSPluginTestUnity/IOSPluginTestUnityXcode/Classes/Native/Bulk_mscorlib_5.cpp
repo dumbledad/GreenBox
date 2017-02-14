@@ -13,18 +13,24 @@
 #include <limits>
 #include <assert.h>
 
+// System.Runtime.Remoting.Messaging.ObjRefSurrogate
+struct ObjRefSurrogate_t3912784830;
+// System.Object
+struct Il2CppObject;
+// System.Runtime.Serialization.SerializationInfo
+struct SerializationInfo_t228987430;
+// System.Runtime.Serialization.ISurrogateSelector
+struct ISurrogateSelector_t1912587528;
+// System.Runtime.Remoting.Messaging.RemotingSurrogate
+struct RemotingSurrogate_t3248446683;
 // System.Runtime.Remoting.Messaging.RemotingSurrogateSelector
 struct RemotingSurrogateSelector_t2821375126;
 // System.Runtime.Serialization.ISerializationSurrogate
 struct ISerializationSurrogate_t1282780357;
 // System.Type
 struct Type_t;
-// System.Runtime.Serialization.ISurrogateSelector
-struct ISurrogateSelector_t1912587528;
 // System.Runtime.Remoting.Messaging.ReturnMessage
 struct ReturnMessage_t3411975905;
-// System.Object
-struct Il2CppObject;
 // System.Object[]
 struct ObjectU5BU5D_t3614634134;
 // System.Runtime.Remoting.Messaging.LogicalCallContext
@@ -61,8 +67,6 @@ struct SoapParameterAttribute_t2780084514;
 struct SoapTypeAttribute_t3444503085;
 // System.Runtime.Remoting.ObjRef
 struct ObjRef_t318414488;
-// System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t228987430;
 // System.Runtime.Remoting.IChannelInfo
 struct IChannelInfo_t185176048;
 // System.Runtime.Remoting.IEnvoyInfo
@@ -233,34 +237,33 @@ struct HMACRIPEMD160_t131410643;
 struct HMACSHA1_t1958407246;
 // System.Security.Cryptography.HMACSHA256
 struct HMACSHA256_t2622794722;
-// System.Security.Cryptography.HMACSHA384
-struct HMACSHA384_t3026079344;
-// System.Security.Cryptography.HMACSHA512
-struct HMACSHA512_t653426285;
 
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Array3829468939.h"
-#include "mscorlib_System_Runtime_Remoting_Messaging_Remotin2821375126.h"
-#include "mscorlib_System_Runtime_Remoting_Messaging_Remotin2821375126MethodDeclarations.h"
+#include "mscorlib_System_Runtime_Remoting_Messaging_ObjRefS3912784830.h"
+#include "mscorlib_System_Runtime_Remoting_Messaging_ObjRefS3912784830MethodDeclarations.h"
 #include "mscorlib_System_Void1841601450.h"
 #include "mscorlib_System_Object2689449295MethodDeclarations.h"
-#include "mscorlib_System_Type1303803226MethodDeclarations.h"
-#include "mscorlib_System_Runtime_Remoting_Messaging_ObjRefS3912784830MethodDeclarations.h"
+#include "mscorlib_System_Object2689449295.h"
+#include "mscorlib_System_Runtime_Serialization_Serialization228987430.h"
+#include "mscorlib_System_Runtime_Serialization_StreamingCon1417235061.h"
+#include "mscorlib_System_NotSupportedException1793819818MethodDeclarations.h"
+#include "mscorlib_System_String2029220233.h"
+#include "mscorlib_System_NotSupportedException1793819818.h"
+#include "mscorlib_System_Runtime_Remoting_Messaging_Remotin3248446683.h"
 #include "mscorlib_System_Runtime_Remoting_Messaging_Remotin3248446683MethodDeclarations.h"
+#include "mscorlib_System_Runtime_Remoting_Messaging_Remotin2821375126.h"
+#include "mscorlib_System_Runtime_Remoting_Messaging_Remotin2821375126MethodDeclarations.h"
+#include "mscorlib_System_Type1303803226MethodDeclarations.h"
 #include "mscorlib_System_Type1303803226.h"
 #include "mscorlib_System_RuntimeTypeHandle2330101084.h"
-#include "mscorlib_System_Runtime_Remoting_Messaging_ObjRefS3912784830.h"
-#include "mscorlib_System_Runtime_Remoting_Messaging_Remotin3248446683.h"
-#include "mscorlib_System_Runtime_Serialization_StreamingCon1417235061.h"
 #include "mscorlib_System_Boolean3825574718.h"
 #include "mscorlib_System_Runtime_Remoting_Messaging_ReturnM3411975905.h"
 #include "mscorlib_System_Runtime_Remoting_Messaging_ReturnM3411975905MethodDeclarations.h"
-#include "mscorlib_System_Object2689449295.h"
 #include "mscorlib_System_Runtime_Remoting_Messaging_LogicalC725724420.h"
 #include "mscorlib_ArrayTypes.h"
 #include "mscorlib_System_Int322071877448.h"
-#include "mscorlib_System_String2029220233.h"
 #include "mscorlib_System_Reflection_MethodBase904190842.h"
 #include "mscorlib_System_Exception1927440687.h"
 #include "mscorlib_System_Runtime_Remoting_Messaging_LogicalC725724420MethodDeclarations.h"
@@ -303,15 +306,12 @@ struct HMACSHA512_t653426285;
 #include "mscorlib_System_Reflection_AssemblyName894705941.h"
 #include "mscorlib_System_Runtime_Remoting_ObjRef318414488.h"
 #include "mscorlib_System_Runtime_Remoting_ObjRef318414488MethodDeclarations.h"
-#include "mscorlib_System_Runtime_Serialization_Serialization228987430.h"
 #include "mscorlib_System_Runtime_Serialization_Serialization228987430MethodDeclarations.h"
 #include "mscorlib_System_Runtime_Serialization_Serialization589103770MethodDeclarations.h"
 #include "mscorlib_System_Collections_Generic_Dictionary_2_g3986656710MethodDeclarations.h"
 #include "mscorlib_System_Convert2607082565MethodDeclarations.h"
-#include "mscorlib_System_NotSupportedException1793819818MethodDeclarations.h"
 #include "mscorlib_System_Runtime_Serialization_Serialization589103770.h"
 #include "mscorlib_System_Collections_Generic_Dictionary_2_g3986656710.h"
-#include "mscorlib_System_NotSupportedException1793819818.h"
 #include "mscorlib_System_Runtime_Remoting_ChannelInfo709892715MethodDeclarations.h"
 #include "mscorlib_System_Runtime_Remoting_ChannelInfo709892715.h"
 #include "mscorlib_System_Runtime_Remoting_ProviderData2518653487.h"
@@ -640,16 +640,63 @@ struct HMACSHA512_t653426285;
 #include "mscorlib_System_Security_Cryptography_HMACSHA11958407246MethodDeclarations.h"
 #include "mscorlib_System_Security_Cryptography_HMACSHA2562622794722.h"
 #include "mscorlib_System_Security_Cryptography_HMACSHA2562622794722MethodDeclarations.h"
-#include "mscorlib_System_Security_Cryptography_HMACSHA3843026079344.h"
-#include "mscorlib_System_Security_Cryptography_HMACSHA3843026079344MethodDeclarations.h"
-#include "mscorlib_System_Security_Cryptography_HMACSHA512653426285.h"
-#include "mscorlib_System_Security_Cryptography_HMACSHA512653426285MethodDeclarations.h"
 
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void System.Runtime.Remoting.Messaging.ObjRefSurrogate::.ctor()
+extern "C"  void ObjRefSurrogate__ctor_m3732637940 (ObjRefSurrogate_t3912784830 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object System.Runtime.Remoting.Messaging.ObjRefSurrogate::SetObjectData(System.Object,System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext,System.Runtime.Serialization.ISurrogateSelector)
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1313090288;
+extern const uint32_t ObjRefSurrogate_SetObjectData_m1873902916_MetadataUsageId;
+extern "C"  Il2CppObject * ObjRefSurrogate_SetObjectData_m1873902916 (ObjRefSurrogate_t3912784830 * __this, Il2CppObject * ___obj0, SerializationInfo_t228987430 * ___si1, StreamingContext_t1417235061  ___sc2, Il2CppObject * ___selector3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ObjRefSurrogate_SetObjectData_m1873902916_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m836173213(L_0, _stringLiteral1313090288, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Runtime.Remoting.Messaging.RemotingSurrogate::.ctor()
+extern "C"  void RemotingSurrogate__ctor_m4143261101 (RemotingSurrogate_t3248446683 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object System.Runtime.Remoting.Messaging.RemotingSurrogate::SetObjectData(System.Object,System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext,System.Runtime.Serialization.ISurrogateSelector)
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern const uint32_t RemotingSurrogate_SetObjectData_m2594388993_MetadataUsageId;
+extern "C"  Il2CppObject * RemotingSurrogate_SetObjectData_m2594388993 (RemotingSurrogate_t3248446683 * __this, Il2CppObject * ___obj0, SerializationInfo_t228987430 * ___si1, StreamingContext_t1417235061  ___sc2, Il2CppObject * ___selector3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (RemotingSurrogate_SetObjectData_m2594388993_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
 // System.Void System.Runtime.Remoting.Messaging.RemotingSurrogateSelector::.ctor()
 extern "C"  void RemotingSurrogateSelector__ctor_m88962884 (RemotingSurrogateSelector_t2821375126 * __this, const MethodInfo* method)
 {
@@ -4966,7 +5013,7 @@ IL_0072:
 		IL2CPP_RUNTIME_CLASS_INIT(RemotingServices_t2399536837_il2cpp_TypeInfo_var);
 		int32_t L_26 = ((RemotingServices_t2399536837_StaticFields*)RemotingServices_t2399536837_il2cpp_TypeInfo_var->static_fields)->get_methodBindings_5();
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		TypeU5BU5D_t1664964607* L_27 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_3();
+		TypeU5BU5D_t1664964607* L_27 = ((Type_t_StaticFields*)Type_t_il2cpp_TypeInfo_var->static_fields)->get_EmptyTypes_2();
 		NullCheck(L_25);
 		ConstructorInfo_t2851816542 * L_28 = Type_GetConstructor_m663514781(L_25, L_26, (Binder_t3404612058 *)NULL, L_27, (ParameterModifierU5BU5D_t963192633*)(ParameterModifierU5BU5D_t963192633*)NULL, /*hidden argument*/NULL);
 		return L_28;
@@ -25987,212 +26034,6 @@ extern "C"  void HMACSHA256__ctor_m2029603220 (HMACSHA256_t2622794722 * __this, 
 		((HashAlgorithm_t2624936259 *)__this)->set_HashSizeValue_1(((int32_t)256));
 		ByteU5BU5D_t3397334013* L_0 = ___key0;
 		VirtActionInvoker1< ByteU5BU5D_t3397334013* >::Invoke(16 /* System.Void System.Security.Cryptography.HMAC::set_Key(System.Byte[]) */, __this, L_0);
-		return;
-	}
-}
-// System.Void System.Security.Cryptography.HMACSHA384::.ctor()
-extern Il2CppClass* HMACSHA384_t3026079344_il2cpp_TypeInfo_var;
-extern const uint32_t HMACSHA384__ctor_m2276425085_MetadataUsageId;
-extern "C"  void HMACSHA384__ctor_m2276425085 (HMACSHA384_t3026079344 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (HMACSHA384__ctor_m2276425085_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		ByteU5BU5D_t3397334013* L_0 = KeyBuilder_Key_m96369605(NULL /*static, unused*/, 8, /*hidden argument*/NULL);
-		HMACSHA384__ctor_m1685802572(__this, L_0, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(HMACSHA384_t3026079344_il2cpp_TypeInfo_var);
-		bool L_1 = ((HMACSHA384_t3026079344_StaticFields*)HMACSHA384_t3026079344_il2cpp_TypeInfo_var->static_fields)->get_legacy_mode_10();
-		HMACSHA384_set_ProduceLegacyHmacValues_m1463818351(__this, L_1, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void System.Security.Cryptography.HMACSHA384::.ctor(System.Byte[])
-extern Il2CppClass* HMACSHA384_t3026079344_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral676927009;
-extern const uint32_t HMACSHA384__ctor_m1685802572_MetadataUsageId;
-extern "C"  void HMACSHA384__ctor_m1685802572 (HMACSHA384_t3026079344 * __this, ByteU5BU5D_t3397334013* ___key0, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (HMACSHA384__ctor_m1685802572_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		HMAC__ctor_m2799893504(__this, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(HMACSHA384_t3026079344_il2cpp_TypeInfo_var);
-		bool L_0 = ((HMACSHA384_t3026079344_StaticFields*)HMACSHA384_t3026079344_il2cpp_TypeInfo_var->static_fields)->get_legacy_mode_10();
-		HMACSHA384_set_ProduceLegacyHmacValues_m1463818351(__this, L_0, /*hidden argument*/NULL);
-		HMAC_set_HashName_m457235014(__this, _stringLiteral676927009, /*hidden argument*/NULL);
-		((HashAlgorithm_t2624936259 *)__this)->set_HashSizeValue_1(((int32_t)384));
-		ByteU5BU5D_t3397334013* L_1 = ___key0;
-		VirtActionInvoker1< ByteU5BU5D_t3397334013* >::Invoke(16 /* System.Void System.Security.Cryptography.HMAC::set_Key(System.Byte[]) */, __this, L_1);
-		return;
-	}
-}
-// System.Void System.Security.Cryptography.HMACSHA384::.cctor()
-extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
-extern Il2CppClass* HMACSHA384_t3026079344_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral2821355161;
-extern Il2CppCodeGenString* _stringLiteral372029325;
-extern const uint32_t HMACSHA384__cctor_m2346301776_MetadataUsageId;
-extern "C"  void HMACSHA384__cctor_m2346301776 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (HMACSHA384__cctor_m2346301776_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		String_t* L_0 = Environment_GetEnvironmentVariable_m4292917946(NULL /*static, unused*/, _stringLiteral2821355161, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_1 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_0, _stringLiteral372029325, /*hidden argument*/NULL);
-		((HMACSHA384_t3026079344_StaticFields*)HMACSHA384_t3026079344_il2cpp_TypeInfo_var->static_fields)->set_legacy_mode_10(L_1);
-		return;
-	}
-}
-// System.Void System.Security.Cryptography.HMACSHA384::set_ProduceLegacyHmacValues(System.Boolean)
-extern "C"  void HMACSHA384_set_ProduceLegacyHmacValues_m1463818351 (HMACSHA384_t3026079344 * __this, bool ___value0, const MethodInfo* method)
-{
-	HMACSHA384_t3026079344 * G_B2_0 = NULL;
-	HMACSHA384_t3026079344 * G_B1_0 = NULL;
-	int32_t G_B3_0 = 0;
-	HMACSHA384_t3026079344 * G_B3_1 = NULL;
-	{
-		bool L_0 = ___value0;
-		__this->set_legacy_11(L_0);
-		bool L_1 = __this->get_legacy_11();
-		G_B1_0 = __this;
-		if (!L_1)
-		{
-			G_B2_0 = __this;
-			goto IL_001a;
-		}
-	}
-	{
-		G_B3_0 = ((int32_t)64);
-		G_B3_1 = G_B1_0;
-		goto IL_001f;
-	}
-
-IL_001a:
-	{
-		G_B3_0 = ((int32_t)128);
-		G_B3_1 = G_B2_0;
-	}
-
-IL_001f:
-	{
-		NullCheck(G_B3_1);
-		HMAC_set_BlockSizeValue_m1107262347(G_B3_1, G_B3_0, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void System.Security.Cryptography.HMACSHA512::.ctor()
-extern Il2CppClass* HMACSHA512_t653426285_il2cpp_TypeInfo_var;
-extern const uint32_t HMACSHA512__ctor_m2390736870_MetadataUsageId;
-extern "C"  void HMACSHA512__ctor_m2390736870 (HMACSHA512_t653426285 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (HMACSHA512__ctor_m2390736870_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		ByteU5BU5D_t3397334013* L_0 = KeyBuilder_Key_m96369605(NULL /*static, unused*/, 8, /*hidden argument*/NULL);
-		HMACSHA512__ctor_m1667460019(__this, L_0, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(HMACSHA512_t653426285_il2cpp_TypeInfo_var);
-		bool L_1 = ((HMACSHA512_t653426285_StaticFields*)HMACSHA512_t653426285_il2cpp_TypeInfo_var->static_fields)->get_legacy_mode_10();
-		HMACSHA512_set_ProduceLegacyHmacValues_m800478278(__this, L_1, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void System.Security.Cryptography.HMACSHA512::.ctor(System.Byte[])
-extern Il2CppClass* HMACSHA512_t653426285_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral636521048;
-extern const uint32_t HMACSHA512__ctor_m1667460019_MetadataUsageId;
-extern "C"  void HMACSHA512__ctor_m1667460019 (HMACSHA512_t653426285 * __this, ByteU5BU5D_t3397334013* ___key0, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (HMACSHA512__ctor_m1667460019_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		HMAC__ctor_m2799893504(__this, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(HMACSHA512_t653426285_il2cpp_TypeInfo_var);
-		bool L_0 = ((HMACSHA512_t653426285_StaticFields*)HMACSHA512_t653426285_il2cpp_TypeInfo_var->static_fields)->get_legacy_mode_10();
-		HMACSHA512_set_ProduceLegacyHmacValues_m800478278(__this, L_0, /*hidden argument*/NULL);
-		HMAC_set_HashName_m457235014(__this, _stringLiteral636521048, /*hidden argument*/NULL);
-		((HashAlgorithm_t2624936259 *)__this)->set_HashSizeValue_1(((int32_t)512));
-		ByteU5BU5D_t3397334013* L_1 = ___key0;
-		VirtActionInvoker1< ByteU5BU5D_t3397334013* >::Invoke(16 /* System.Void System.Security.Cryptography.HMAC::set_Key(System.Byte[]) */, __this, L_1);
-		return;
-	}
-}
-// System.Void System.Security.Cryptography.HMACSHA512::.cctor()
-extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
-extern Il2CppClass* HMACSHA512_t653426285_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral2821355161;
-extern Il2CppCodeGenString* _stringLiteral372029325;
-extern const uint32_t HMACSHA512__cctor_m1167457383_MetadataUsageId;
-extern "C"  void HMACSHA512__cctor_m1167457383 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (HMACSHA512__cctor_m1167457383_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		String_t* L_0 = Environment_GetEnvironmentVariable_m4292917946(NULL /*static, unused*/, _stringLiteral2821355161, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_1 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_0, _stringLiteral372029325, /*hidden argument*/NULL);
-		((HMACSHA512_t653426285_StaticFields*)HMACSHA512_t653426285_il2cpp_TypeInfo_var->static_fields)->set_legacy_mode_10(L_1);
-		return;
-	}
-}
-// System.Void System.Security.Cryptography.HMACSHA512::set_ProduceLegacyHmacValues(System.Boolean)
-extern "C"  void HMACSHA512_set_ProduceLegacyHmacValues_m800478278 (HMACSHA512_t653426285 * __this, bool ___value0, const MethodInfo* method)
-{
-	HMACSHA512_t653426285 * G_B2_0 = NULL;
-	HMACSHA512_t653426285 * G_B1_0 = NULL;
-	int32_t G_B3_0 = 0;
-	HMACSHA512_t653426285 * G_B3_1 = NULL;
-	{
-		bool L_0 = ___value0;
-		__this->set_legacy_11(L_0);
-		bool L_1 = __this->get_legacy_11();
-		G_B1_0 = __this;
-		if (!L_1)
-		{
-			G_B2_0 = __this;
-			goto IL_001a;
-		}
-	}
-	{
-		G_B3_0 = ((int32_t)64);
-		G_B3_1 = G_B1_0;
-		goto IL_001f;
-	}
-
-IL_001a:
-	{
-		G_B3_0 = ((int32_t)128);
-		G_B3_1 = G_B2_0;
-	}
-
-IL_001f:
-	{
-		NullCheck(G_B3_1);
-		HMAC_set_BlockSizeValue_m1107262347(G_B3_1, G_B3_0, /*hidden argument*/NULL);
 		return;
 	}
 }
