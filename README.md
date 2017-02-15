@@ -25,5 +25,9 @@ Unity C# script.
 For commit [b4f22f](https://github.com/dumbledad/GreenBox/tree/b4f22f2323036d5a8bc185999b6224d04ca519e8) I am back to a very simple call from a Unity C# script 
 but this time it is into a Mono C# DLL.
 
-And the latest code follows this approach with a Unity C# script calling into a Mono C# DLL which in turn calls into the native iOS static library, including 
-a callback from the native iOS static library to the Mono C# DLL.
+Extending that, commit [7ef](https://github.com/dumbledad/GreenBox/tree/7ef0fc3f4587341a973f6d60873286bfcaf5e097) has a Unity C# script calling into a Mono C# 
+DLL which in turn calls into the native iOS static library, and includes a callback from the native iOS static library to the Mono C# DLL.
+
+The current code should look no different from the code in the previous commit, but the Mono DLL and the native iOS static library were added to the Unity project 
+by importing a Unity package (called MonoTestPackage.unitypackage in the IOSPluginTestUnity directory). The package was created following the instructions in the 
+Unity manual [here](https://docs.unity3d.com/Manual/HOWTO-exportpackage.html).
