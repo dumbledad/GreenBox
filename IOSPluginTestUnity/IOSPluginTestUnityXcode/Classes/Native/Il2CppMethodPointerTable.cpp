@@ -2795,7 +2795,6 @@ extern "C" void Assembly_GetModules_m2242070953 ();
 extern "C" void Assembly_GetExecutingAssembly_m776016337 ();
 extern "C" void ResolveEventHolder__ctor_m2004627747 ();
 extern "C" void AssemblyCompanyAttribute__ctor_m1217508649 ();
-extern "C" void AssemblyConfigurationAttribute__ctor_m2611941870 ();
 extern "C" void AssemblyCopyrightAttribute__ctor_m2712202383 ();
 extern "C" void AssemblyDefaultAliasAttribute__ctor_m746891723 ();
 extern "C" void AssemblyDelaySignAttribute__ctor_m793760213 ();
@@ -2821,7 +2820,6 @@ extern "C" void AssemblyName_Clone_m3390118349 ();
 extern "C" void AssemblyName_OnDeserialization_m2683521459 ();
 extern "C" void AssemblyProductAttribute__ctor_m1807437213 ();
 extern "C" void AssemblyTitleAttribute__ctor_m1696431446 ();
-extern "C" void AssemblyTrademarkAttribute__ctor_m4184045333 ();
 extern "C" void Binder__ctor_m1361613966 ();
 extern "C" void Binder__cctor_m3736115807 ();
 extern "C" void Binder_get_DefaultBinder_m965620943 ();
@@ -8017,22 +8015,22 @@ extern "C" void TypeInferenceRuleAttribute__ctor_m470566337 ();
 extern "C" void TypeInferenceRuleAttribute_ToString_m3941510216 ();
 extern "C" void WebRequestUtils_RedirectTo_m3803295888 ();
 extern "C" void WebRequestUtils__cctor_m893658947 ();
-extern "C" void Calculations__ctor_m2917165631 ();
-extern "C" void Calculations_square_m2997411793 ();
-extern "C" void Calculations_setCubeCallback_m256851688 ();
-extern "C" void Calculations_get_isSquared_m3690501061 ();
-extern "C" void Calculations_get_isCubed_m710668369 ();
-extern "C" void Calculations_Init_m1952284929 ();
-extern "C" void Calculations_calculationCallback_m1912372092 ();
-extern "C" void Calculations__cctor_m1648947134 ();
-extern "C" void CalculationCallback__ctor_m1712875560 ();
-extern "C" void CalculationCallback_Invoke_m293114517 ();
-extern "C" void CalculationCallback_BeginInvoke_m2533573398 ();
-extern "C" void CalculationCallback_EndInvoke_m3028523018 ();
 extern "C" void CubeScript__ctor_m853278953 ();
 extern "C" void CubeScript_Start_m3582001249 ();
 extern "C" void CubeScript_Update_m2971544568 ();
-extern const Il2CppMethodPointer g_MethodPointers[8021] = 
+extern "C" void Calculations__ctor_m2401470930 ();
+extern "C" void Calculations_square_m2382564208 ();
+extern "C" void Calculations_setCubeCallback_m1382465675 ();
+extern "C" void Calculations_get_isSquared_m4180341150 ();
+extern "C" void Calculations_get_isCubed_m1826305968 ();
+extern "C" void Calculations_Init_m2935826498 ();
+extern "C" void Calculations_calculationCallback_m3906382007 ();
+extern "C" void Calculations__cctor_m4170463525 ();
+extern "C" void CalculationCallback__ctor_m2326134249 ();
+extern "C" void CalculationCallback_Invoke_m208425692 ();
+extern "C" void CalculationCallback_BeginInvoke_m3473287867 ();
+extern "C" void CalculationCallback_EndInvoke_m2544488455 ();
+extern const Il2CppMethodPointer g_MethodPointers[8019] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -10818,7 +10816,6 @@ extern const Il2CppMethodPointer g_MethodPointers[8021] =
 	Assembly_GetExecutingAssembly_m776016337,
 	ResolveEventHolder__ctor_m2004627747,
 	AssemblyCompanyAttribute__ctor_m1217508649,
-	AssemblyConfigurationAttribute__ctor_m2611941870,
 	AssemblyCopyrightAttribute__ctor_m2712202383,
 	AssemblyDefaultAliasAttribute__ctor_m746891723,
 	AssemblyDelaySignAttribute__ctor_m793760213,
@@ -10844,7 +10841,6 @@ extern const Il2CppMethodPointer g_MethodPointers[8021] =
 	AssemblyName_OnDeserialization_m2683521459,
 	AssemblyProductAttribute__ctor_m1807437213,
 	AssemblyTitleAttribute__ctor_m1696431446,
-	AssemblyTrademarkAttribute__ctor_m4184045333,
 	Binder__ctor_m1361613966,
 	Binder__cctor_m3736115807,
 	Binder_get_DefaultBinder_m965620943,
@@ -16040,19 +16036,19 @@ extern const Il2CppMethodPointer g_MethodPointers[8021] =
 	TypeInferenceRuleAttribute_ToString_m3941510216,
 	WebRequestUtils_RedirectTo_m3803295888,
 	WebRequestUtils__cctor_m893658947,
-	Calculations__ctor_m2917165631,
-	Calculations_square_m2997411793,
-	Calculations_setCubeCallback_m256851688,
-	Calculations_get_isSquared_m3690501061,
-	Calculations_get_isCubed_m710668369,
-	Calculations_Init_m1952284929,
-	Calculations_calculationCallback_m1912372092,
-	Calculations__cctor_m1648947134,
-	CalculationCallback__ctor_m1712875560,
-	CalculationCallback_Invoke_m293114517,
-	CalculationCallback_BeginInvoke_m2533573398,
-	CalculationCallback_EndInvoke_m3028523018,
 	CubeScript__ctor_m853278953,
 	CubeScript_Start_m3582001249,
 	CubeScript_Update_m2971544568,
+	Calculations__ctor_m2401470930,
+	Calculations_square_m2382564208,
+	Calculations_setCubeCallback_m1382465675,
+	Calculations_get_isSquared_m4180341150,
+	Calculations_get_isCubed_m1826305968,
+	Calculations_Init_m2935826498,
+	Calculations_calculationCallback_m3906382007,
+	Calculations__cctor_m4170463525,
+	CalculationCallback__ctor_m2326134249,
+	CalculationCallback_Invoke_m208425692,
+	CalculationCallback_BeginInvoke_m3473287867,
+	CalculationCallback_EndInvoke_m2544488455,
 };

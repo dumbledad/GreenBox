@@ -45,8 +45,6 @@ struct ModuleU5BU5D_t3593287923;
 struct ResolveEventHolder_t1761494505;
 // System.Reflection.AssemblyCompanyAttribute
 struct AssemblyCompanyAttribute_t2851673381;
-// System.Reflection.AssemblyConfigurationAttribute
-struct AssemblyConfigurationAttribute_t1678917172;
 // System.Reflection.AssemblyCopyrightAttribute
 struct AssemblyCopyrightAttribute_t177123295;
 // System.Reflection.AssemblyDefaultAliasAttribute
@@ -71,8 +69,6 @@ struct Il2CppObject;
 struct AssemblyProductAttribute_t1523443169;
 // System.Reflection.AssemblyTitleAttribute
 struct AssemblyTitleAttribute_t92945912;
-// System.Reflection.AssemblyTrademarkAttribute
-struct AssemblyTrademarkAttribute_t3740556705;
 // System.Reflection.Binder
 struct Binder_t3404612058;
 // System.Reflection.ParameterInfo[]
@@ -225,6 +221,12 @@ struct ResourceCacheItemU5BU5D_t2265014744;
 struct IDictionaryEnumerator_t259680273;
 // System.Resources.ResourceReader/ResourceEnumerator
 struct ResourceEnumerator_t2665690338;
+// System.Resources.ResourceSet
+struct ResourceSet_t1348327650;
+// System.IO.UnmanagedMemoryStream
+struct UnmanagedMemoryStream_t822875729;
+// System.Resources.RuntimeResourceSet
+struct RuntimeResourceSet_t1442459318;
 
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
@@ -281,8 +283,6 @@ struct ResourceEnumerator_t2665690338;
 #include "mscorlib_System_RuntimeTypeHandle2330101084.h"
 #include "mscorlib_System_Reflection_AssemblyCompanyAttribut2851673381.h"
 #include "mscorlib_System_Reflection_AssemblyCompanyAttribut2851673381MethodDeclarations.h"
-#include "mscorlib_System_Reflection_AssemblyConfigurationAt1678917172.h"
-#include "mscorlib_System_Reflection_AssemblyConfigurationAt1678917172MethodDeclarations.h"
 #include "mscorlib_System_Reflection_AssemblyCopyrightAttribu177123295.h"
 #include "mscorlib_System_Reflection_AssemblyCopyrightAttribu177123295MethodDeclarations.h"
 #include "mscorlib_System_Reflection_AssemblyDefaultAliasAtt1774139159.h"
@@ -325,8 +325,6 @@ struct ResourceEnumerator_t2665690338;
 #include "mscorlib_System_Reflection_AssemblyProductAttribut1523443169MethodDeclarations.h"
 #include "mscorlib_System_Reflection_AssemblyTitleAttribute92945912.h"
 #include "mscorlib_System_Reflection_AssemblyTitleAttribute92945912MethodDeclarations.h"
-#include "mscorlib_System_Reflection_AssemblyTrademarkAttrib3740556705.h"
-#include "mscorlib_System_Reflection_AssemblyTrademarkAttrib3740556705MethodDeclarations.h"
 #include "mscorlib_System_Reflection_Binder3404612058.h"
 #include "mscorlib_System_Reflection_Binder3404612058MethodDeclarations.h"
 #include "mscorlib_System_Reflection_Binder_Default3956931304MethodDeclarations.h"
@@ -568,6 +566,14 @@ struct ResourceEnumerator_t2665690338;
 #include "mscorlib_System_Resources_ResourceReader_ResourceE2665690338.h"
 #include "mscorlib_System_Collections_DictionaryEntry3048875398.h"
 #include "mscorlib_System_Collections_DictionaryEntry3048875398MethodDeclarations.h"
+#include "mscorlib_System_Resources_ResourceSet1348327650.h"
+#include "mscorlib_System_Resources_ResourceSet1348327650MethodDeclarations.h"
+#include "mscorlib_System_IO_UnmanagedMemoryStream822875729.h"
+#include "mscorlib_System_GC2902933594MethodDeclarations.h"
+#include "mscorlib_System_ObjectDisposedException2695136451MethodDeclarations.h"
+#include "mscorlib_System_ObjectDisposedException2695136451.h"
+#include "mscorlib_System_Resources_RuntimeResourceSet1442459318.h"
+#include "mscorlib_System_Resources_RuntimeResourceSet1442459318MethodDeclarations.h"
 
 // System.Int32 System.Array::IndexOf<System.Object>(!!0[],!!0)
 extern "C"  int32_t Array_IndexOf_TisIl2CppObject_m2032877681_gshared (Il2CppObject * __this /* static, unused */, ObjectU5BU5D_t3614634134* p0, Il2CppObject * p1, const MethodInfo* method);
@@ -1294,16 +1300,6 @@ extern "C"  void AssemblyCompanyAttribute__ctor_m1217508649 (AssemblyCompanyAttr
 	{
 		Attribute__ctor_m1730479323(__this, /*hidden argument*/NULL);
 		String_t* L_0 = ___company0;
-		__this->set_name_0(L_0);
-		return;
-	}
-}
-// System.Void System.Reflection.AssemblyConfigurationAttribute::.ctor(System.String)
-extern "C"  void AssemblyConfigurationAttribute__ctor_m2611941870 (AssemblyConfigurationAttribute_t1678917172 * __this, String_t* ___configuration0, const MethodInfo* method)
-{
-	{
-		Attribute__ctor_m1730479323(__this, /*hidden argument*/NULL);
-		String_t* L_0 = ___configuration0;
 		__this->set_name_0(L_0);
 		return;
 	}
@@ -2386,16 +2382,6 @@ extern "C"  void AssemblyTitleAttribute__ctor_m1696431446 (AssemblyTitleAttribut
 	{
 		Attribute__ctor_m1730479323(__this, /*hidden argument*/NULL);
 		String_t* L_0 = ___title0;
-		__this->set_name_0(L_0);
-		return;
-	}
-}
-// System.Void System.Reflection.AssemblyTrademarkAttribute::.ctor(System.String)
-extern "C"  void AssemblyTrademarkAttribute__ctor_m4184045333 (AssemblyTrademarkAttribute_t3740556705 * __this, String_t* ___trademark0, const MethodInfo* method)
-{
-	{
-		Attribute__ctor_m1730479323(__this, /*hidden argument*/NULL);
-		String_t* L_0 = ___trademark0;
 		__this->set_name_0(L_0);
 		return;
 	}
@@ -25616,6 +25602,679 @@ extern "C" void ResourceInfo_t3933049236_marshal_com_cleanup(ResourceInfo_t39330
 {
 	il2cpp_codegen_marshal_free_bstring(marshaled.___ResourceName_1);
 	marshaled.___ResourceName_1 = NULL;
+}
+// System.Void System.Resources.ResourceSet::.ctor()
+extern Il2CppClass* Hashtable_t909839986_il2cpp_TypeInfo_var;
+extern const uint32_t ResourceSet__ctor_m2566914412_MetadataUsageId;
+extern "C"  void ResourceSet__ctor_m2566914412 (ResourceSet_t1348327650 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ResourceSet__ctor_m2566914412_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		Hashtable_t909839986 * L_0 = (Hashtable_t909839986 *)il2cpp_codegen_object_new(Hashtable_t909839986_il2cpp_TypeInfo_var);
+		Hashtable__ctor_m1884964176(L_0, /*hidden argument*/NULL);
+		__this->set_Table_1(L_0);
+		__this->set_resources_read_2((bool)1);
+		return;
+	}
+}
+// System.Void System.Resources.ResourceSet::.ctor(System.IO.Stream)
+extern Il2CppClass* Hashtable_t909839986_il2cpp_TypeInfo_var;
+extern Il2CppClass* ResourceReader_t2463923611_il2cpp_TypeInfo_var;
+extern const uint32_t ResourceSet__ctor_m993837251_MetadataUsageId;
+extern "C"  void ResourceSet__ctor_m993837251 (ResourceSet_t1348327650 * __this, Stream_t3255436806 * ___stream0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ResourceSet__ctor_m993837251_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		Hashtable_t909839986 * L_0 = (Hashtable_t909839986 *)il2cpp_codegen_object_new(Hashtable_t909839986_il2cpp_TypeInfo_var);
+		Hashtable__ctor_m1884964176(L_0, /*hidden argument*/NULL);
+		__this->set_Table_1(L_0);
+		Stream_t3255436806 * L_1 = ___stream0;
+		ResourceReader_t2463923611 * L_2 = (ResourceReader_t2463923611 *)il2cpp_codegen_object_new(ResourceReader_t2463923611_il2cpp_TypeInfo_var);
+		ResourceReader__ctor_m1562845828(L_2, L_1, /*hidden argument*/NULL);
+		__this->set_Reader_0(L_2);
+		return;
+	}
+}
+// System.Void System.Resources.ResourceSet::.ctor(System.IO.UnmanagedMemoryStream)
+extern Il2CppClass* Hashtable_t909839986_il2cpp_TypeInfo_var;
+extern Il2CppClass* ResourceReader_t2463923611_il2cpp_TypeInfo_var;
+extern const uint32_t ResourceSet__ctor_m129522286_MetadataUsageId;
+extern "C"  void ResourceSet__ctor_m129522286 (ResourceSet_t1348327650 * __this, UnmanagedMemoryStream_t822875729 * ___stream0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ResourceSet__ctor_m129522286_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		Hashtable_t909839986 * L_0 = (Hashtable_t909839986 *)il2cpp_codegen_object_new(Hashtable_t909839986_il2cpp_TypeInfo_var);
+		Hashtable__ctor_m1884964176(L_0, /*hidden argument*/NULL);
+		__this->set_Table_1(L_0);
+		UnmanagedMemoryStream_t822875729 * L_1 = ___stream0;
+		ResourceReader_t2463923611 * L_2 = (ResourceReader_t2463923611 *)il2cpp_codegen_object_new(ResourceReader_t2463923611_il2cpp_TypeInfo_var);
+		ResourceReader__ctor_m1562845828(L_2, L_1, /*hidden argument*/NULL);
+		__this->set_Reader_0(L_2);
+		return;
+	}
+}
+// System.Void System.Resources.ResourceSet::.ctor(System.String)
+extern Il2CppClass* Hashtable_t909839986_il2cpp_TypeInfo_var;
+extern Il2CppClass* ResourceReader_t2463923611_il2cpp_TypeInfo_var;
+extern const uint32_t ResourceSet__ctor_m1222864106_MetadataUsageId;
+extern "C"  void ResourceSet__ctor_m1222864106 (ResourceSet_t1348327650 * __this, String_t* ___fileName0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ResourceSet__ctor_m1222864106_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		Hashtable_t909839986 * L_0 = (Hashtable_t909839986 *)il2cpp_codegen_object_new(Hashtable_t909839986_il2cpp_TypeInfo_var);
+		Hashtable__ctor_m1884964176(L_0, /*hidden argument*/NULL);
+		__this->set_Table_1(L_0);
+		String_t* L_1 = ___fileName0;
+		ResourceReader_t2463923611 * L_2 = (ResourceReader_t2463923611 *)il2cpp_codegen_object_new(ResourceReader_t2463923611_il2cpp_TypeInfo_var);
+		ResourceReader__ctor_m2324926185(L_2, L_1, /*hidden argument*/NULL);
+		__this->set_Reader_0(L_2);
+		return;
+	}
+}
+// System.Collections.IEnumerator System.Resources.ResourceSet::System.Collections.IEnumerable.GetEnumerator()
+extern "C"  Il2CppObject * ResourceSet_System_Collections_IEnumerable_GetEnumerator_m1568302465 (ResourceSet_t1348327650 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = VirtFuncInvoker0< Il2CppObject * >::Invoke(7 /* System.Collections.IDictionaryEnumerator System.Resources.ResourceSet::GetEnumerator() */, __this);
+		return L_0;
+	}
+}
+// System.Void System.Resources.ResourceSet::Dispose()
+extern "C"  void ResourceSet_Dispose_m2968479859 (ResourceSet_t1348327650 * __this, const MethodInfo* method)
+{
+	{
+		VirtActionInvoker1< bool >::Invoke(6 /* System.Void System.Resources.ResourceSet::Dispose(System.Boolean) */, __this, (bool)1);
+		GC_SuppressFinalize_m953228702(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Resources.ResourceSet::Dispose(System.Boolean)
+extern Il2CppClass* IResourceReader_t3222588482_il2cpp_TypeInfo_var;
+extern const uint32_t ResourceSet_Dispose_m2615980752_MetadataUsageId;
+extern "C"  void ResourceSet_Dispose_m2615980752 (ResourceSet_t1348327650 * __this, bool ___disposing0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ResourceSet_Dispose_m2615980752_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = ___disposing0;
+		if (!L_0)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		Il2CppObject * L_1 = __this->get_Reader_0();
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		Il2CppObject * L_2 = __this->get_Reader_0();
+		NullCheck(L_2);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.Resources.IResourceReader::Close() */, IResourceReader_t3222588482_il2cpp_TypeInfo_var, L_2);
+	}
+
+IL_001c:
+	{
+		__this->set_Reader_0((Il2CppObject *)NULL);
+		__this->set_Table_1((Hashtable_t909839986 *)NULL);
+		__this->set_disposed_3((bool)1);
+		return;
+	}
+}
+// System.Collections.IDictionaryEnumerator System.Resources.ResourceSet::GetEnumerator()
+extern Il2CppClass* ObjectDisposedException_t2695136451_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2823848692;
+extern const uint32_t ResourceSet_GetEnumerator_m1363893992_MetadataUsageId;
+extern "C"  Il2CppObject * ResourceSet_GetEnumerator_m1363893992 (ResourceSet_t1348327650 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ResourceSet_GetEnumerator_m1363893992_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get_disposed_3();
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		ObjectDisposedException_t2695136451 * L_1 = (ObjectDisposedException_t2695136451 *)il2cpp_codegen_object_new(ObjectDisposedException_t2695136451_il2cpp_TypeInfo_var);
+		ObjectDisposedException__ctor_m3156784572(L_1, _stringLiteral2823848692, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0016:
+	{
+		VirtActionInvoker0::Invoke(10 /* System.Void System.Resources.ResourceSet::ReadResources() */, __this);
+		Hashtable_t909839986 * L_2 = __this->get_Table_1();
+		NullCheck(L_2);
+		Il2CppObject * L_3 = VirtFuncInvoker0< Il2CppObject * >::Invoke(26 /* System.Collections.IDictionaryEnumerator System.Collections.Hashtable::GetEnumerator() */, L_2);
+		return L_3;
+	}
+}
+// System.Object System.Resources.ResourceSet::GetObjectInternal(System.String,System.Boolean)
+extern Il2CppClass* ArgumentNullException_t628810857_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectDisposedException_t2695136451_il2cpp_TypeInfo_var;
+extern Il2CppClass* IEnumerator_t1466026749_il2cpp_TypeInfo_var;
+extern Il2CppClass* DictionaryEntry_t3048875398_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* CultureInfo_t3500843524_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2328218955;
+extern Il2CppCodeGenString* _stringLiteral2823848692;
+extern const uint32_t ResourceSet_GetObjectInternal_m3556256510_MetadataUsageId;
+extern "C"  Il2CppObject * ResourceSet_GetObjectInternal_m3556256510 (ResourceSet_t1348327650 * __this, String_t* ___name0, bool ___ignoreCase1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ResourceSet_GetObjectInternal_m3556256510_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppObject * V_0 = NULL;
+	DictionaryEntry_t3048875398  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Il2CppObject * V_2 = NULL;
+	String_t* V_3 = NULL;
+	Il2CppObject * V_4 = NULL;
+	Il2CppObject * V_5 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		String_t* L_0 = ___name0;
+		if (L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		ArgumentNullException_t628810857 * L_1 = (ArgumentNullException_t628810857 *)il2cpp_codegen_object_new(ArgumentNullException_t628810857_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m3380712306(L_1, _stringLiteral2328218955, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0011:
+	{
+		bool L_2 = __this->get_disposed_3();
+		if (!L_2)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		ObjectDisposedException_t2695136451 * L_3 = (ObjectDisposedException_t2695136451 *)il2cpp_codegen_object_new(ObjectDisposedException_t2695136451_il2cpp_TypeInfo_var);
+		ObjectDisposedException__ctor_m3156784572(L_3, _stringLiteral2823848692, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0027:
+	{
+		VirtActionInvoker0::Invoke(10 /* System.Void System.Resources.ResourceSet::ReadResources() */, __this);
+		Hashtable_t909839986 * L_4 = __this->get_Table_1();
+		String_t* L_5 = ___name0;
+		NullCheck(L_4);
+		Il2CppObject * L_6 = VirtFuncInvoker1< Il2CppObject *, Il2CppObject * >::Invoke(20 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_4, L_5);
+		V_0 = L_6;
+		Il2CppObject * L_7 = V_0;
+		if (!L_7)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		Il2CppObject * L_8 = V_0;
+		return L_8;
+	}
+
+IL_0042:
+	{
+		bool L_9 = ___ignoreCase1;
+		if (!L_9)
+		{
+			goto IL_00b7;
+		}
+	}
+	{
+		Hashtable_t909839986 * L_10 = __this->get_Table_1();
+		NullCheck(L_10);
+		Il2CppObject * L_11 = VirtFuncInvoker0< Il2CppObject * >::Invoke(26 /* System.Collections.IDictionaryEnumerator System.Collections.Hashtable::GetEnumerator() */, L_10);
+		V_2 = L_11;
+	}
+
+IL_0054:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0092;
+		}
+
+IL_0059:
+		{
+			Il2CppObject * L_12 = V_2;
+			NullCheck(L_12);
+			Il2CppObject * L_13 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_12);
+			V_1 = ((*(DictionaryEntry_t3048875398 *)((DictionaryEntry_t3048875398 *)UnBox (L_13, DictionaryEntry_t3048875398_il2cpp_TypeInfo_var))));
+			Il2CppObject * L_14 = DictionaryEntry_get_Key_m3623293571((&V_1), /*hidden argument*/NULL);
+			V_3 = ((String_t*)CastclassSealed(L_14, String_t_il2cpp_TypeInfo_var));
+			String_t* L_15 = V_3;
+			String_t* L_16 = ___name0;
+			IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+			CultureInfo_t3500843524 * L_17 = CultureInfo_get_InvariantCulture_m398972276(NULL /*static, unused*/, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			int32_t L_18 = String_Compare_m1847873744(NULL /*static, unused*/, L_15, L_16, (bool)1, L_17, /*hidden argument*/NULL);
+			if (L_18)
+			{
+				goto IL_0092;
+			}
+		}
+
+IL_0084:
+		{
+			Il2CppObject * L_19 = DictionaryEntry_get_Value_m2812883243((&V_1), /*hidden argument*/NULL);
+			V_4 = L_19;
+			IL2CPP_LEAVE(0xB9, FINALLY_00a2);
+		}
+
+IL_0092:
+		{
+			Il2CppObject * L_20 = V_2;
+			NullCheck(L_20);
+			bool L_21 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_20);
+			if (L_21)
+			{
+				goto IL_0059;
+			}
+		}
+
+IL_009d:
+		{
+			IL2CPP_LEAVE(0xB7, FINALLY_00a2);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_00a2;
+	}
+
+FINALLY_00a2:
+	{ // begin finally (depth: 1)
+		{
+			Il2CppObject * L_22 = V_2;
+			V_5 = ((Il2CppObject *)IsInst(L_22, IDisposable_t2427283555_il2cpp_TypeInfo_var));
+			Il2CppObject * L_23 = V_5;
+			if (L_23)
+			{
+				goto IL_00af;
+			}
+		}
+
+IL_00ae:
+		{
+			IL2CPP_END_FINALLY(162)
+		}
+
+IL_00af:
+		{
+			Il2CppObject * L_24 = V_5;
+			NullCheck(L_24);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_24);
+			IL2CPP_END_FINALLY(162)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(162)
+	{
+		IL2CPP_JUMP_TBL(0xB9, IL_00b9)
+		IL2CPP_JUMP_TBL(0xB7, IL_00b7)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_00b7:
+	{
+		return NULL;
+	}
+
+IL_00b9:
+	{
+		Il2CppObject * L_25 = V_4;
+		return L_25;
+	}
+}
+// System.Object System.Resources.ResourceSet::GetObject(System.String)
+extern "C"  Il2CppObject * ResourceSet_GetObject_m1232449476 (ResourceSet_t1348327650 * __this, String_t* ___name0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___name0;
+		Il2CppObject * L_1 = ResourceSet_GetObjectInternal_m3556256510(__this, L_0, (bool)0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Object System.Resources.ResourceSet::GetObject(System.String,System.Boolean)
+extern "C"  Il2CppObject * ResourceSet_GetObject_m730549927 (ResourceSet_t1348327650 * __this, String_t* ___name0, bool ___ignoreCase1, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___name0;
+		bool L_1 = ___ignoreCase1;
+		Il2CppObject * L_2 = ResourceSet_GetObjectInternal_m3556256510(__this, L_0, L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// System.Void System.Resources.ResourceSet::ReadResources()
+extern Il2CppClass* ObjectDisposedException_t2695136451_il2cpp_TypeInfo_var;
+extern Il2CppClass* IResourceReader_t3222588482_il2cpp_TypeInfo_var;
+extern Il2CppClass* IEnumerator_t1466026749_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDictionaryEnumerator_t259680273_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2823848692;
+extern const uint32_t ResourceSet_ReadResources_m1669023823_MetadataUsageId;
+extern "C"  void ResourceSet_ReadResources_m1669023823 (ResourceSet_t1348327650 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ResourceSet_ReadResources_m1669023823_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Hashtable_t909839986 * V_0 = NULL;
+	Il2CppObject * V_1 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		bool L_0 = __this->get_resources_read_2();
+		if (!L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		Il2CppObject * L_1 = __this->get_Reader_0();
+		if (L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		ObjectDisposedException_t2695136451 * L_2 = (ObjectDisposedException_t2695136451 *)il2cpp_codegen_object_new(ObjectDisposedException_t2695136451_il2cpp_TypeInfo_var);
+		ObjectDisposedException__ctor_m3156784572(L_2, _stringLiteral2823848692, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_0022:
+	{
+		Hashtable_t909839986 * L_3 = __this->get_Table_1();
+		V_0 = L_3;
+		Hashtable_t909839986 * L_4 = V_0;
+		Monitor_Enter_m2136705809(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+	}
+
+IL_002f:
+	try
+	{ // begin try (depth: 1)
+		{
+			bool L_5 = __this->get_resources_read_2();
+			if (!L_5)
+			{
+				goto IL_003f;
+			}
+		}
+
+IL_003a:
+		{
+			IL2CPP_LEAVE(0x8B, FINALLY_0084);
+		}
+
+IL_003f:
+		{
+			Il2CppObject * L_6 = __this->get_Reader_0();
+			NullCheck(L_6);
+			Il2CppObject * L_7 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(1 /* System.Collections.IDictionaryEnumerator System.Resources.IResourceReader::GetEnumerator() */, IResourceReader_t3222588482_il2cpp_TypeInfo_var, L_6);
+			V_1 = L_7;
+			Il2CppObject * L_8 = V_1;
+			NullCheck(L_8);
+			InterfaceActionInvoker0::Invoke(2 /* System.Void System.Collections.IEnumerator::Reset() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_8);
+			goto IL_006d;
+		}
+
+IL_0056:
+		{
+			Hashtable_t909839986 * L_9 = __this->get_Table_1();
+			Il2CppObject * L_10 = V_1;
+			NullCheck(L_10);
+			Il2CppObject * L_11 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(1 /* System.Object System.Collections.IDictionaryEnumerator::get_Key() */, IDictionaryEnumerator_t259680273_il2cpp_TypeInfo_var, L_10);
+			Il2CppObject * L_12 = V_1;
+			NullCheck(L_12);
+			Il2CppObject * L_13 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(2 /* System.Object System.Collections.IDictionaryEnumerator::get_Value() */, IDictionaryEnumerator_t259680273_il2cpp_TypeInfo_var, L_12);
+			NullCheck(L_9);
+			VirtActionInvoker2< Il2CppObject *, Il2CppObject * >::Invoke(23 /* System.Void System.Collections.Hashtable::Add(System.Object,System.Object) */, L_9, L_11, L_13);
+		}
+
+IL_006d:
+		{
+			Il2CppObject * L_14 = V_1;
+			NullCheck(L_14);
+			bool L_15 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_14);
+			if (L_15)
+			{
+				goto IL_0056;
+			}
+		}
+
+IL_0078:
+		{
+			__this->set_resources_read_2((bool)1);
+			IL2CPP_LEAVE(0x8B, FINALLY_0084);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0084;
+	}
+
+FINALLY_0084:
+	{ // begin finally (depth: 1)
+		Hashtable_t909839986 * L_16 = V_0;
+		Monitor_Exit_m2677760297(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(132)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(132)
+	{
+		IL2CPP_JUMP_TBL(0x8B, IL_008b)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_008b:
+	{
+		return;
+	}
+}
+// System.Void System.Resources.RuntimeResourceSet::.ctor(System.IO.UnmanagedMemoryStream)
+extern "C"  void RuntimeResourceSet__ctor_m1613034732 (RuntimeResourceSet_t1442459318 * __this, UnmanagedMemoryStream_t822875729 * ___stream0, const MethodInfo* method)
+{
+	{
+		UnmanagedMemoryStream_t822875729 * L_0 = ___stream0;
+		ResourceSet__ctor_m129522286(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Resources.RuntimeResourceSet::.ctor(System.IO.Stream)
+extern "C"  void RuntimeResourceSet__ctor_m684285079 (RuntimeResourceSet_t1442459318 * __this, Stream_t3255436806 * ___stream0, const MethodInfo* method)
+{
+	{
+		Stream_t3255436806 * L_0 = ___stream0;
+		ResourceSet__ctor_m993837251(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Resources.RuntimeResourceSet::.ctor(System.String)
+extern "C"  void RuntimeResourceSet__ctor_m3991949484 (RuntimeResourceSet_t1442459318 * __this, String_t* ___fileName0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___fileName0;
+		ResourceSet__ctor_m1222864106(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object System.Resources.RuntimeResourceSet::GetObject(System.String)
+extern Il2CppClass* ObjectDisposedException_t2695136451_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2823848692;
+extern const uint32_t RuntimeResourceSet_GetObject_m3586640176_MetadataUsageId;
+extern "C"  Il2CppObject * RuntimeResourceSet_GetObject_m3586640176 (RuntimeResourceSet_t1442459318 * __this, String_t* ___name0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (RuntimeResourceSet_GetObject_m3586640176_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = ((ResourceSet_t1348327650 *)__this)->get_Reader_0();
+		if (L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		ObjectDisposedException_t2695136451 * L_1 = (ObjectDisposedException_t2695136451 *)il2cpp_codegen_object_new(ObjectDisposedException_t2695136451_il2cpp_TypeInfo_var);
+		ObjectDisposedException__ctor_m3156784572(L_1, _stringLiteral2823848692, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0016:
+	{
+		String_t* L_2 = ___name0;
+		Il2CppObject * L_3 = ResourceSet_GetObject_m1232449476(__this, L_2, /*hidden argument*/NULL);
+		Il2CppObject * L_4 = RuntimeResourceSet_CloneDisposableObjectIfPossible_m344935759(__this, L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+// System.Object System.Resources.RuntimeResourceSet::GetObject(System.String,System.Boolean)
+extern Il2CppClass* ObjectDisposedException_t2695136451_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2823848692;
+extern const uint32_t RuntimeResourceSet_GetObject_m802265983_MetadataUsageId;
+extern "C"  Il2CppObject * RuntimeResourceSet_GetObject_m802265983 (RuntimeResourceSet_t1442459318 * __this, String_t* ___name0, bool ___ignoreCase1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (RuntimeResourceSet_GetObject_m802265983_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = ((ResourceSet_t1348327650 *)__this)->get_Reader_0();
+		if (L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		ObjectDisposedException_t2695136451 * L_1 = (ObjectDisposedException_t2695136451 *)il2cpp_codegen_object_new(ObjectDisposedException_t2695136451_il2cpp_TypeInfo_var);
+		ObjectDisposedException__ctor_m3156784572(L_1, _stringLiteral2823848692, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0016:
+	{
+		String_t* L_2 = ___name0;
+		bool L_3 = ___ignoreCase1;
+		Il2CppObject * L_4 = ResourceSet_GetObject_m730549927(__this, L_2, L_3, /*hidden argument*/NULL);
+		Il2CppObject * L_5 = RuntimeResourceSet_CloneDisposableObjectIfPossible_m344935759(__this, L_4, /*hidden argument*/NULL);
+		return L_5;
+	}
+}
+// System.Object System.Resources.RuntimeResourceSet::CloneDisposableObjectIfPossible(System.Object)
+extern Il2CppClass* ICloneable_t3853279282_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern const uint32_t RuntimeResourceSet_CloneDisposableObjectIfPossible_m344935759_MetadataUsageId;
+extern "C"  Il2CppObject * RuntimeResourceSet_CloneDisposableObjectIfPossible_m344935759 (RuntimeResourceSet_t1442459318 * __this, Il2CppObject * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (RuntimeResourceSet_CloneDisposableObjectIfPossible_m344935759_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppObject * V_0 = NULL;
+	Il2CppObject * G_B4_0 = NULL;
+	{
+		Il2CppObject * L_0 = ___value0;
+		V_0 = ((Il2CppObject *)IsInst(L_0, ICloneable_t3853279282_il2cpp_TypeInfo_var));
+		Il2CppObject * L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		Il2CppObject * L_2 = ___value0;
+		if (!((Il2CppObject *)IsInst(L_2, IDisposable_t2427283555_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		Il2CppObject * L_3 = V_0;
+		NullCheck(L_3);
+		Il2CppObject * L_4 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Object System.ICloneable::Clone() */, ICloneable_t3853279282_il2cpp_TypeInfo_var, L_3);
+		G_B4_0 = L_4;
+		goto IL_0024;
+	}
+
+IL_0023:
+	{
+		Il2CppObject * L_5 = ___value0;
+		G_B4_0 = L_5;
+	}
+
+IL_0024:
+	{
+		return G_B4_0;
+	}
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

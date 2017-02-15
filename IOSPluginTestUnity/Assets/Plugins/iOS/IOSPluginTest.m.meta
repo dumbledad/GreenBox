@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: bd67baf3e3dba4611b176e9f0d3571f0
-timeCreated: 1487088106
+guid: f92fcf55bd0f543dd8bafa46a116240f
+timeCreated: 1487157660
 licenseType: Pro
 PluginImporter:
   serializedVersion: 1
@@ -10,16 +10,15 @@ PluginImporter:
   isOverridable: 0
   platformData:
     Any:
-      enabled: 1
+      enabled: 0
       settings: {}
     Editor:
       enabled: 0
       settings:
         DefaultValueInitialized: true
-    WindowsStoreApps:
-      enabled: 0
-      settings:
-        CPU: AnyCPU
+    iOS:
+      enabled: 1
+      settings: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 

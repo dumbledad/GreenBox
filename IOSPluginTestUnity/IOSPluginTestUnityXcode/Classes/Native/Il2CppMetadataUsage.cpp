@@ -1137,8 +1137,8 @@ const MethodInfo* Enumerator_Dispose_m210984790_MethodInfo_var;
 const MethodInfo* Action_1_Invoke_m9088308_MethodInfo_var;
 const MethodInfo* List_1__ctor_m2974994212_MethodInfo_var;
 const MethodInfo* UnhandledExceptionHandler_HandleUnhandledException_m1413629867_MethodInfo_var;
-const MethodInfo* Calculations_calculationCallback_m1912372092_MethodInfo_var;
 const MethodInfo* Component_GetComponent_TisRenderer_t257310565_m772028041_MethodInfo_var;
+const MethodInfo* Calculations_calculationCallback_m3906382007_MethodInfo_var;
 FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305137____U24U24fieldU2D1_1_FieldInfo_var;
 FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305137____U24U24fieldU2D2_2_FieldInfo_var;
 FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305137____U24U24fieldU2D3_3_FieldInfo_var;
@@ -4935,8 +4935,8 @@ extern void** const g_MetadataUsages[3796] =
 	(void**)&Action_1_Invoke_m9088308_MethodInfo_var,
 	(void**)&List_1__ctor_m2974994212_MethodInfo_var,
 	(void**)&UnhandledExceptionHandler_HandleUnhandledException_m1413629867_MethodInfo_var,
-	(void**)&Calculations_calculationCallback_m1912372092_MethodInfo_var,
 	(void**)&Component_GetComponent_TisRenderer_t257310565_m772028041_MethodInfo_var,
+	(void**)&Calculations_calculationCallback_m3906382007_MethodInfo_var,
 	(void**)&U3CPrivateImplementationDetailsU3E_t1486305137____U24U24fieldU2D1_1_FieldInfo_var,
 	(void**)&U3CPrivateImplementationDetailsU3E_t1486305137____U24U24fieldU2D2_2_FieldInfo_var,
 	(void**)&U3CPrivateImplementationDetailsU3E_t1486305137____U24U24fieldU2D3_3_FieldInfo_var,
@@ -8437,12 +8437,12 @@ extern const uint32_t Byte_System_IConvertible_ToUInt64_m2667486567_MetadataUsag
 extern const uint32_t Byte_ToString_m1526839480_MetadataUsageId = 828;
 extern const uint32_t Byte_ToString_m3547765450_MetadataUsageId = 829;
 extern const uint32_t Byte_ToString_m3956930818_MetadataUsageId = 830;
-extern const uint32_t CalculationCallback_BeginInvoke_m2533573398_MetadataUsageId = 831;
-extern const uint32_t Calculations__cctor_m1648947134_MetadataUsageId = 832;
-extern const uint32_t Calculations_calculationCallback_m1912372092_MetadataUsageId = 833;
-extern const uint32_t Calculations_get_isCubed_m710668369_MetadataUsageId = 834;
-extern const uint32_t Calculations_Init_m1952284929_MetadataUsageId = 835;
-extern const uint32_t Calculations_t3126126952_CustomAttributesCacheGenerator_Calculations_calculationCallback_m1912372092_MetadataUsageId = 836;
+extern const uint32_t CalculationCallback_BeginInvoke_m3473287867_MetadataUsageId = 831;
+extern const uint32_t Calculations__cctor_m4170463525_MetadataUsageId = 832;
+extern const uint32_t Calculations_calculationCallback_m3906382007_MetadataUsageId = 833;
+extern const uint32_t Calculations_get_isCubed_m1826305968_MetadataUsageId = 834;
+extern const uint32_t Calculations_Init_m2935826498_MetadataUsageId = 835;
+extern const uint32_t Calculations_t3126126952_CustomAttributesCacheGenerator_Calculations_calculationCallback_m3906382007_MetadataUsageId = 836;
 extern const uint32_t Calendar_CheckReadOnly_m2489518342_MetadataUsageId = 837;
 extern const uint32_t Calendar_Clone_m3159430630_MetadataUsageId = 838;
 extern const uint32_t Calendar_get_EraNames_m452820602_MetadataUsageId = 839;
